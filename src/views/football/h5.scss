@@ -1,0 +1,212 @@
+.app-view {
+    background-color: #f1f6fc;
+    .box-banner {
+        height: (473/16) + rem;
+        background: url("../../assets/img/football/h5/H5banner.png");
+        background-size: cover;
+    }
+    .box-info {
+        margin-top: (5/16) + rem;
+        padding: 0 20px;
+
+
+        .box-title {
+          padding-top: (24/16) + rem;
+          font-size: (16/16) + rem;
+          color: #F19D16 ;
+          line-height: (32/16) + rem;
+          font-weight: 600;
+          .hd-nr {
+            width: (257/16) + rem;
+            height: (44/16) + rem;
+            background: url('../../assets/img/football/h5/H5hdnr.png') no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+          }
+        }
+        .box-cont {
+          margin-top: (8/16) + rem;
+          font-size: (13/16) + rem;
+          line-height: (20/16) + rem;
+          color: #7B86A9 ;
+        }
+        .btn-sure {
+            margin: (15/16) + rem auto;
+            width: (281/16) + rem;
+            height: (44/16) + rem;
+            text-align: center;
+            background: url('../../assets/img/football/h5/H5hdzdss.png') no-repeat;
+            background-size: cover;
+        }
+        .play-time {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            font-size: (13/16) + rem;
+            line-height: (20/16) + rem;
+            color: #7B86A9;
+            text-align: center;
+            p {
+                margin-right: 5px;
+            }
+          }
+          .box-team-box {
+            display: flex;
+            color: #7B86A9;
+            text-align: center;
+            width: (356/16) + rem;
+            height:( 168/16) + rem;
+            opacity: 0.99;
+            margin: 10px 0 15px -8px;
+            background: url('../../assets/img/football/h5/hdnr_bg_pcs2.png') no-repeat;
+            background-size: 100% 100%;
+            .box-team {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: (295/16) + rem;
+            margin: 15px 0 20px 25px;
+            }
+            .game-team-item {
+              margin-right: -20px;
+              p {
+                font-size: 13px;
+                color: #7B86A9;
+              }
+              div {
+                width: (84/16) + rem;
+                height: (96/16) + rem;
+                background: url("../../assets/img/football/h5/dph5.png") no-repeat;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                  // width: auto;
+                  // height: auto;
+                  max-width:70%;
+                  max-height: 70%;
+                }
+              }
+            }
+            .game-team-item1 {
+              margin-left: -5px;
+              p {
+                font-size: 13px;
+                color: #7B86A9;
+              }
+              div {
+                width: (85/16) + rem;
+                height: (97/16) + rem;
+                background: url("../../assets/img/football/h5/dph5.png") no-repeat;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                  // width: auto;
+                  // height: auto;
+                  max-width:60%;
+                  max-height: 60%;
+                }
+              }
+            }
+            .game-team-middle {
+              width: (160/16) + rem;
+              z-index: -1;
+              > p:first-child {
+                font-size: (15/16) + rem;
+              }
+              > p:nth-child(2) {
+                font-size: (12/16) + rem;
+                background: #7B86A9;
+                color: #FFFFFF;
+                width: (180/16) + rem;
+                height: (37/16) + rem;
+                margin-left: -3px;
+                line-height: (37/16) + rem;
+              }
+              > p:nth-child(3) {
+                font-size: (25/16) + rem;
+                margin-top: 5px;
+              }
+            }
+          }
+          .no-data {
+            width: (356/16) + rem;
+            height: 241px;
+            background: url('../../assets/img/football/h5/qsbgh5.png') no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            margin: 15px -11px ;
+            img {
+              display: flex;
+              width: 186px;
+              height: 144px;
+              margin: 0 auto;
+              padding-top: 50px;
+            }
+          }
+        .box-table {
+            // width: 100%;
+            // height: 188/16 + rem;
+            margin-bottom: (20/16) + rem;
+            color:  #7B86A9;
+            th,td {
+                border: 1px solid #000000;
+                font-size: (13/16) + rem;
+            }
+            td {
+                width: (82/16) + rem; 
+                height: (41/16) + rem;
+                text-align: center;
+            }
+            
+            th {
+                 width: (98/16) + rem;
+                 background-color: #7B86A9;
+                 color: #FFFFFF;
+            }
+        }  
+        .btn-kf {
+          width: (244/16) + rem;
+          height: (44/16) + rem;
+          background: url("../../assets/img/football/h5/lq_btn_H5.png") no-repeat;
+          background-size: cover;
+          margin: 0 auto (20/16) + rem;
+        }
+        .hd-gz {
+          width: (232/16) + rem;
+          height: (44/16) + rem;
+          background: url('../../assets/img/football/h5/H5hdnr2.png') no-repeat;
+          background-size: cover;
+          margin: 0 auto 15px;
+        }
+        .box-example {
+            height: (110/16) + rem;
+            // background-color: blue;
+            margin-top: (30/16) + rem;
+            font-size: (13/16) + rem;
+            line-height:(20/16) + rem;
+            color: #FFFFFF;
+        }
+      }
+    .box-rule {
+        height: (500/16) + rem;
+        .box-cont {
+            width: (345/16) + rem;
+            height: (462/16) + rem;
+            margin: auto;
+            padding-top: (10/16) + rem;
+            p {
+                font-size: (14/16) + rem;
+                color:  #7B86A9;
+                line-height: (24/16) + rem;
+            }
+        }
+    }
+}
+    
+  
+  
+  

@@ -1,0 +1,606 @@
+$count: 99.9422423;
+* {
+  box-sizing: border-box;
+}
+.container{
+  background: #F2EEE4 url("../../assets/img/nba/pc/BG.jpg") no-repeat;
+  background-size: 100%;
+  padding-top: 650/$count+rem;
+  padding-bottom: 50/$count+rem;
+}
+.start_t{
+  background: url("../../assets/img/nba/pc/sj_bg.png") no-repeat center;
+  background-size: contain;
+  margin-top: 50px;
+  width: 1470/$count+rem;
+  height: 28/$count+rem;
+  margin: auto;
+  color: #538FD0;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-family: PingFangSC-Semibold;
+    font-size: 30/$count+rem;
+    color: #90672D;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+.guess{
+  margin: auto;
+  background: url("../../assets/img/nba/pc/jc_bg.png") no-repeat;
+  background-size: cover;
+  width: 1300/$count+rem;
+  height: 715/$count+rem;
+  margin-top: 73/$count+rem;
+  position: relative;
+  .title{
+    position:absolute;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    top:-6.5/$count+rem;
+
+    >div{
+      width:343/$count+rem;
+      height:100/$count+rem;
+    }
+    
+    >div:nth-child(1){
+      background: url("../../assets/img/nba/pc/bfjc_tit_pre.png") no-repeat;
+      background-size: cover;
+      margin-right: 27/$count+rem;
+    }
+
+    >div:nth-child(1).active{
+      background: url("../../assets/img/nba/pc/bfjc_tit.png") no-repeat;
+      background-size: cover;
+    }
+    
+    >div:nth-child(2){
+      background: url("../../assets/img/nba/pc/wdjc_tit_pre.png") no-repeat;
+      background-size: cover;
+    }
+
+    >div:nth-child(2).active{
+      background: url("../../assets/img/nba/pc/wdjc_tit.png") no-repeat;
+      background-size: cover;
+    }
+  }
+  .quiz{
+    padding-top: 117/$count+rem;
+    .wallet_status{
+      font-size: 26/$count+rem;
+      color: #90672D;
+      letter-spacing: 0;
+      text-align:center;
+    }
+    .wallet_status.usdt{
+      color:#00C696;
+    }
+    .login{
+      font-size: 28/$count+rem;
+      font-family: PingFangSC-Medium;
+      color: #444B52;
+      letter-spacing: 0;
+      line-height: 36/$count+rem;
+      font-weight: 500;
+      text-align: center;
+      span{
+        color: #90672D;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+    .info{
+      display:flex;
+      width:756/$count+rem;
+      margin:auto;
+      margin-top:30/$count+rem;
+      .icon{
+        width:159/$count+rem;
+        height:158/$count+rem;
+        background: url("../../assets/img/nba/pc/dwk.png") no-repeat;
+        background-size: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        img{
+          height:78/$count+rem;
+        }
+      }
+      .name{
+        font-size: 28/$count+rem;
+        color: #424B53;
+        letter-spacing: 0;
+        margin-top:20/$count+rem;
+      }
+      .inputs{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:21/$count+rem;
+        >span{
+          font-size: 20/$count+rem;
+          color: #8E949A;
+          letter-spacing: 0;
+          padding:0 15/$count+rem;
+        }
+      }
+      .left{
+        flex:0;
+        text-align:center;
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+      }
+      .medium{
+        flex:1;
+        text-align:center;
+        >p{
+          font-size: 24/$count+rem;
+          color: #444B52;
+          letter-spacing: 0;
+          margin-top:20/$count+rem;
+        }
+        >img{
+          width:118/$count+rem;
+          display:block;
+          margin:auto;
+          margin-top:30/$count+rem;
+        }
+      }
+      .right{
+        display:flex;
+        align-items:center;
+        flex:0;
+        text-align:center;
+        flex-direction: column;
+      }
+    }
+    .sub{
+      font-size: 20/$count+rem;
+      color: #A99580;
+      letter-spacing: 0;
+      padding: 0 100/$count+rem;
+      margin-top:30/$count+rem;
+    }
+    .submit{
+      margin:auto;
+      background: url("../../assets/img/nba/pc/tjbf_btn_pre.png") no-repeat;
+      background-size: cover;
+      width:248/$count+rem;
+      height:70/$count+rem;
+      margin-top:30/$count+rem;
+    }
+  }
+  .guess_record{
+    width:900/$count+rem;
+    height:480/$count+rem;
+    overflow-y: auto;
+    margin:auto;
+
+    font-size: 20/$count+rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 48/$count+rem;
+    .list{
+      // height: 100%;
+      .row{
+        >div{
+          display:flex;
+          >div{
+            flex:1;
+          }
+        }
+        
+        >div:nth-child(1){
+          background: #D0A881;
+          padding:0 15/$count+rem;
+          >div:nth-child(2){
+            text-align:right;
+          }
+          .y{
+            color:#FADD5E;
+          }
+          .see_details{
+            margin-left: 10/$count+rem;
+            color: #FADD5E;
+          }
+        }
+        >div:nth-child(2){
+          background: #F8ECE1;
+          text-align: center;
+          color:#63676C;
+          >div{
+            >span:nth-child(1){
+              margin-right: 5/$count+rem;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  /*定义滚动条高宽及背景
+  高宽分别对应横竖滚动条的尺寸*/
+  ::-webkit-scrollbar
+  {
+      width:5/$count+rem;
+      background-color:#F5F5F5;
+  }
+  /*定义滚动条轨道
+  内阴影+圆角*/
+  ::-webkit-scrollbar-track
+  {
+      -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+      border-radius:5/$count+rem;
+      background-color:#F5F5F5;
+  }
+  /*定义滑块
+  内阴影+圆角*/
+  ::-webkit-scrollbar-thumb
+  {
+      border-radius:5/$count+rem;
+      -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+      background-color:#BAC0D3;
+  }
+}
+.record{
+  padding-top:128.5/$count+rem;
+  // width:650/$count+rem;
+  // height:326/$count+rem;
+  // background: url("../../assets/img/nba/pc/nr_bg.png") no-repeat;
+  // background-size: cover;
+}
+.ac_rule{
+  margin: auto;
+  width: 1300/$count+rem;
+  height: 1795/$count+rem;
+  background: url("../../assets/img/nba/pc/nr_bg.png") no-repeat;
+  background-size: cover;
+  margin-top: 90/$count+rem;
+  padding-top: 40/$count+rem;
+  .zjmd{
+    text-align: center;
+    img{
+      width: 214/$count+rem;
+      height: 110/$count+rem;
+    }
+  }
+
+  .winn_list{
+    margin: auto;
+    width: 960/$count+rem;
+    .t_h{
+      font-size: 24/$count+rem;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      background: #D0A881;
+      border-radius: 6/$count+rem 6/$count+rem 0 0;
+      line-height: 68/$count+rem;
+      display:flex;
+      text-align: center;
+      >div{
+        flex: 1;
+      }
+    }
+    .t_b{
+      border: 1px solid #CBA275;
+      border-radius: 0 0 6/$count+rem 6/$count+rem;
+      border-top: none;
+      height: 356/$count+rem;
+      overflow: hidden;
+      overflow-y: scroll;
+      line-height: 71/$count+rem;
+
+      >div{
+        display: flex;
+        font-size: 22/$count+rem;
+        color: #63676C;
+        letter-spacing: 1/$count+rem;
+        border: 1px solid #CBA275;
+        border-top: none;
+        text-align: center;
+        >div{
+          flex: 1;
+        }
+        >div:not(:last-child){
+          border-right: 1px solid #CBA275;
+        }
+        >div:nth-child(2){
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          line-height: normal;
+          font-size: 20/$count+rem;
+          color: #63676C;
+          letter-spacing: 0.75/$count+rem;
+        }
+      }
+    }
+    /*定义滚动条高宽及背景
+    高宽分别对应横竖滚动条的尺寸*/
+    ::-webkit-scrollbar
+    {
+        width:5/$count+rem;
+        background-color:#F5F5F5;
+    }
+    /*定义滚动条轨道
+    内阴影+圆角*/
+    ::-webkit-scrollbar-track
+    {
+        -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius:5/$count+rem;
+        background-color:#F5F5F5;
+    }
+    /*定义滑块
+    内阴影+圆角*/
+    ::-webkit-scrollbar-thumb
+    {
+        border-radius:5/$count+rem;
+        -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+        background-color:#BAC0D3;
+    }
+    .empty{
+      border: 1px solid #CBA275;
+      border-radius: 0 0 6/$count+rem 6/$count+rem;
+      border-top: none;
+      height: 178/$count+rem;
+    }
+  }
+  .hdnr_t{
+    text-align: center;
+    img{
+      width: 214/$count+rem;
+      margin-top: 41/$count+rem;
+    }
+  }
+  .hdnr{
+    margin: auto;
+    width: 1100/$count+rem;
+    font-size: 20/$count+rem;
+    color: #444B52;
+    letter-spacing: 0;
+    line-height: 36/$count+rem;
+    span{
+      color:#90672D;
+    } 
+  }
+  .hdgz{
+    margin: auto;
+    width: 1100/$count+rem;
+    font-size: 20/$count+rem;
+    color: #444B52;
+    letter-spacing: 0;
+    line-height: 36/$count+rem;
+    span{
+      color:#90672D;
+    }
+    >p:not(:last-child){
+      margin-bottom: 8/$count+rem;
+    }
+  }
+}
+
+.model{
+  width:100%;
+  height: 100%;
+  position:fixed;
+  left: 0;
+  top: 0;
+  background: rgba($color: #000000, $alpha: .7);
+  display: flex;
+  justify-content:center;
+
+  .model_btn{
+    width:440/$count+rem;
+    background: #FFFFFF;
+    border-radius: 8/$count+rem;
+    overflow: hidden;
+    height: 220/$count+rem;;
+    margin-top:540/$count+rem;;
+
+    .head{
+      font-size: 20/$count+rem;
+      height: 48/$count+rem;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      text-align: center;
+      background-image: linear-gradient(90deg, #5EC580 3%, #89D288 96%);
+      line-height: 48/$count+rem;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      .close{
+        position: absolute;
+        top:8/$count+rem;
+        right:14/$count+rem;
+      }
+      >span{
+        margin-left: 10/$count+rem;
+      }
+    }
+    .content{
+      padding: 40/$count+rem 0 30/$count+rem 0;
+      text-align: center;
+      >p{
+        font-size: 18/$count+rem;
+        color: #383333;
+        letter-spacing: 0;
+      }
+      >.btn_box{
+        margin-top: 40/$count+rem;
+        display:flex;
+        justify-content: center;
+        >button{
+          width:140/$count+rem;
+          height:41/$count+rem;
+          font-size: 12/$count+rem;
+          border-radius: 30.5/$count+rem;
+          color: #777778;
+          letter-spacing: 0;
+          text-align: center;
+        }
+        >button:nth-child(1){
+          border: 1px solid #DADADA;
+          background: #fff;
+          margin-right:15/$count+rem;
+        }
+        >button:nth-child(2){
+          border: 0;
+          background: #fff;
+          background-image: linear-gradient(90deg, #89D288 4%, #89D288 95%);
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  .number_list{
+    width:540/$count+rem;
+    max-height: 729/$count+rem;
+    margin-top:120/$count+rem;
+    padding-bottom: 40/$count+rem;
+    background: #FFFFFF;
+    border-radius: 8/$count+rem;
+    overflow:hidden;
+    position:absolute;
+    .t{
+      margin-top: 60/$count+rem;
+      img{
+        width:352/$count+rem;
+        display:block;
+        margin:auto;
+      }
+    }
+    .txt {
+      font-size: 16/$count+rem;
+      color: #717171;
+      letter-spacing: 0;
+      line-height: 22/$count+rem;
+      font-weight: 500;
+      margin: 0 auto;
+      text-align: center;  
+      margin-top: 20/$count+rem;
+      i {
+        font-style: normal;
+        color: #D79723;
+      }
+    }
+    .sub {
+      opacity: 0.51;
+      font-family: PingFangSC-Medium;
+      font-size: 12/$count+rem;
+      color: #717171;
+      letter-spacing: 0;
+      font-weight: 500;
+      text-align: center;
+    }
+    .close{
+      position: absolute;
+      right:15/$count+rem;
+      top:15/$count+rem;
+    }
+    .table{
+      width:380/$count+rem;
+      font-size: 20/$count+rem;
+      margin:auto;
+      line-height: 48/$count+rem;
+      margin-top:20/$count+rem;
+      >div{
+        display: flex;
+        
+      }
+      .t_head{
+        text-align: center;
+        background: #D0A881;
+        color: #FFFFFF;
+        border-radius: 4/$count+rem 4/$count+rem 0 0;
+        >div{
+          flex:1;
+        }
+      }
+      .t_body{
+        display: flex;
+        flex-direction: column;
+        max-height: 384/$count+rem;
+        text-align: center;
+        overflow:auto;
+        color: #63676C;
+        background: #FFFFFF;
+        border: 1px solid #CBA275;
+        border-top: 0;
+        border-radius: 0 0 4/$count+rem 4/$count+rem;
+        >div{
+          display: flex;
+          border-bottom: 1px solid #CBA275;
+          >div{
+            flex:1;
+          }
+          >div:not(:last-child){
+            border-right: 1px solid #CBA275;
+          }
+        }
+      }
+      /*定义滚动条高宽及背景
+      高宽分别对应横竖滚动条的尺寸*/
+      ::-webkit-scrollbar
+      {
+          width:5/$count+rem;
+          background-color:#F5F5F5;
+      }
+      /*定义滚动条轨道
+      内阴影+圆角*/
+      ::-webkit-scrollbar-track
+      {
+          -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+          border-radius:5/$count+rem;
+          background-color:#F5F5F5;
+      }
+      /*定义滑块
+      内阴影+圆角*/
+      ::-webkit-scrollbar-thumb
+      {
+          border-radius:5/$count+rem;
+          -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);
+          background-color:#BAC0D3;
+      }
+    }
+    .but_box{
+      display: flex;
+      justify-content: center;
+      margin-top:36/$count+rem;
+      >button{
+        width: 140/$count+rem;
+        height: 48/$count+rem;
+        border: 1/$count+rem solid #DADADA;
+        border-radius: 24/$count+rem;
+        text-align: center;
+        display: block;
+        font-size: 20/$count+rem;
+        color: #777778;
+        letter-spacing: 0;
+        text-align: center;
+        font-weight: 400;
+      }
+      >button:nth-child(1){
+        border: 1px solid #DADADA;
+        background-color: #ffffff;
+        color: #777778;
+        letter-spacing: 0;
+      }
+      >button:nth-child(2){
+        border: 0;
+        background-image: linear-gradient(90deg, #D9B490 4%, #D0A881 94%);
+        color: #FFFFFF;
+        margin-left:25/$count+rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,191 @@
+$count: 99.9422423;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  background: url("../../assets/img/WY/bg.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 600 / $count + rem;
+  padding-bottom: 100 / $count + rem;
+}
+
+.body {
+  // background: url("../../assets/img/WY/hdnr_bg.png") no-repeat center;
+  // background-size: cover;
+  border-radius: 10 / $count + rem;
+  background-color: #943933;
+  border: 2px solid #e3b175;
+  width: 1300 / $count + rem;
+  height: 1436 / $count + rem;
+  margin: auto;
+  padding: 70 / $count + rem 100 / $count + rem 70 / $count + rem 100 / $count + rem;
+}
+
+.title_1 {
+  background: url("../../assets/img/WY/hdsj.png") no-repeat center;
+  background-size: 100% ;
+  width: 400 / $count + rem;
+  height: 60 / $count + rem;
+  margin: auto;
+  margin-top: 40 / $count + rem;
+}
+
+.title_t_1 {
+  font-family: PingFangSC-Medium;
+  font-size: 28 / $count + rem;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 46 / $count + rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40 / $count + rem;
+}
+.title_2 {
+  background: url("../../assets/img/WY/hdnr.png") no-repeat center;
+  background-size: 100% ;
+  width: 400 / $count + rem;
+  height: 60 / $count + rem;
+  margin: auto;
+  margin-top: 50 / $count + rem;
+}
+
+.title_sub {
+  // display: flex;
+  align-items: center;
+  // justify-content: center;
+
+  font-family: AppleSDGothicNeo-Medium;
+  font-size: 28 / $count + rem;
+  color: #ffd87a;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 60 / $count + rem;
+  margin-bottom: 20 / $count + rem;
+  .icon {
+    margin-right: 6 / $count + rem;
+  }
+  .icon_t2 {
+    color: #fff;
+    font-size: 20 / $count + rem;
+    line-height: 28 / $count + rem;
+    margin-top: 8 / $count + rem;
+    span{
+      color: #d1ae93;
+    }
+  }
+}
+
+.table {
+  // border-radius: 6 / $count + rem;
+  // overflow: hidden;
+  > .thead,
+  .tbody > div {
+    display: flex;
+    > div {
+      text-align: center;
+    }
+    > div:nth-child(1) {
+      width: 430 / $count + rem;
+    }
+    > div:nth-child(2) {
+      // width: 451 / $count + rem;
+      flex: 1;
+    }
+    > div:nth-child(3) {
+      flex: 1;
+    }
+    span{
+      display: block;
+    }
+  }
+  .thead {
+    background: #d1ae93;
+    line-height: 67 / $count + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 20 / $count + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-weight: 500;
+    border-radius: 6 / $count + rem 6 / $count + rem 0 0;
+    overflow: hidden;
+  }
+  .tbody {
+    border: 1 / $count + rem solid #e3b175;
+    border-top: 0;
+    background-color: #fff;
+    font-family: DINPro-Medium;
+    font-size: 20 / $count + rem;
+    color: #373f4a;
+    letter-spacing: 1 / $count + rem;
+    font-weight: 500;
+
+    border-radius: 0 0 6 / $count + rem 6 / $count + rem;
+    overflow: hidden;
+    > div {
+      height: 66 / $count + rem;
+      // border-bottom: 1 / $count + rem solid #e3b175;
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          font-style: normal;
+          color: #f16a00;
+        }
+      }
+      > div:not(:last-child) {
+        border-right: 1 / $count + rem solid #e3b175;
+      }
+    }
+  > div:not(:last-child){
+    border-bottom: 1 / $count + rem solid #e3b175;
+  }
+  }
+}
+
+.btn{
+  width: 260/$count+rem;
+  height: 70/$count+rem;
+  margin: 32/$count+rem auto 32/$count+rem auto;
+  cursor: pointer;
+  img{
+      width: 100%;
+      display: block;
+  }
+}
+.sub {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 28 / $count + rem;
+  font-weight: 500;
+  margin-top: 20 / $count + rem;
+  .play{color: #d8c087;}
+  span{
+    color: #937b4e;
+  }
+}
+
+.title_3 {
+  background: url("../../assets/img/WY/hdgz.png") no-repeat center;
+  background-size: 100% ;
+  width: 400 / $count + rem;
+  height: 60 / $count + rem;
+  margin: auto;
+  margin-top: 60 / $count + rem;
+}
+
+.sub2 {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #fff;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 30 / $count + rem;
+}

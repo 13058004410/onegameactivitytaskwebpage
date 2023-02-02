@@ -1,0 +1,196 @@
+.app-view {
+    background-color: #000;
+    .box-banner {
+        height: (481/16) + rem;
+        background: url("../../assets/img/basketball/h5/H5banner.jpg");
+        background-size: cover;
+    }
+    .box-info {
+        margin-top: (5/16) + rem;
+        padding: 0 20px;
+        .box-title {
+          width: (257/16) + rem;
+          height: (44/16) + rem;
+          background: url('../../assets/img/basketball/h5/H5hdnr.png') no-repeat;
+          background-size: cover;
+          margin: 0 auto;
+        }
+        .box-cont {
+          margin-top: (8/16) + rem;
+          font-size: (13/16) + rem;
+          line-height: (20/16) + rem;
+          color: #ffffff;
+        //   font-weight: 600;
+        }
+        .btn-sure {
+            margin: (20/16) + rem auto;
+            width: (281/16) + rem;
+            height: (44/16) + rem;
+            background: url('../../assets/img/basketball/h5/H5hdzdss.png') no-repeat;
+            background-size: cover;
+        }
+        .play {
+          width: (356/16) + rem;
+          height: (168/16) + rem;
+          margin: 0 0 15px -10px;
+          background: url('../../assets/img/basketball/h5/hdnr_bg_pcs备份\ 2.png') no-repeat;
+          background-size: cover;
+          position: relative;
+        }
+        .play-time {
+            box-sizing: border-box;
+            font-size: (13/16) + rem;
+            line-height: (20/16) + rem;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 15px;
+          }
+          .game-team {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            margin-bottom: 20px;
+            p {
+            font-size: 13px;
+            color: #FFFFFF;
+            text-align: center;
+            }
+            .game-team-item {
+              position: absolute;
+              top: 30px;
+              left: 25px;
+              div {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: (84/16) + rem;
+                height: (96/16) + rem;
+                margin-bottom: 10px;
+                background: url("../../assets/img/basketball/h5/dph5.png") no-repeat;
+                background-size: 100% 100%;
+                img {
+                  width: auto;
+                  height: auto;
+                  max-width:70%;
+                  max-height: 70%;
+                }
+              }
+            }
+            .game-team-item1 {
+              position: absolute;
+              top: 30px;
+              right: 25px;
+              div {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: (84/16) + rem;
+                height: (96/16) + rem;
+                margin-bottom: 10px;
+                background: url("../../assets/img/basketball/h5/dph5.png") no-repeat;
+                background-size: 100% 100%;
+                img {
+                  width: auto;
+                  height: auto;
+                  max-width:70%;
+                  max-height: 70%;
+                }
+              }
+            }
+            .game-team-middle {
+              text-align: center;
+              // width: (160/16) + rem;
+              color: #FFFFFF;
+              margin-top: 20px;
+              > p {
+                margin-top: (5/16) + rem;
+              }
+              > p:first-child {
+                font-size: (15/16) + rem;
+              }
+              > p:nth-child(2) {
+                font-size: (13/16) + rem;
+                width: (180/16) + rem;
+                height: (37/16) + rem;
+                background: #1E1E1E;
+                line-height: (37/16) + rem;
+              }
+              > p:nth-child(3) {
+                font-size: (25/16) + rem;
+                // font-weight: 600;
+              }
+            }
+          }
+          .no-data {
+            width: 100%;
+            height: 200px;
+            background-color: #131313;
+            margin: 30px auto 15px;
+            padding-top: 50px;
+            img {
+              display: block;
+              width: 212px;
+              height: 161px;
+              margin: 0 auto;
+            }
+          }
+        .box-table {
+           color: #F1DDB7;
+            th,td {
+                border: 1px solid #F1DDB7;
+                font-size: (13/16) + rem;
+            }
+            td {
+                width: (82/16) + rem; 
+                height: (41/16) + rem;
+                text-align: center;
+            }
+            th {
+                 width: (98/16) + rem;
+                 background-color: #F1DDB7;
+                 color: #252525;
+            }
+        }  
+        .box-example {
+            height: (90/16) + rem;
+            // background-color: blue;
+            margin-top: (30/16) + rem;
+            font-size: (13/16) + rem;
+            line-height:(20/16) + rem;
+            color: #FFFFFF;
+        }
+        .btn-kef {
+          width:(244/16) + rem ;
+          height: (44/16) + rem;
+          margin:  0 auto (30/16) + rem;
+          background: url("../../assets/img/basketball/h5/lq_btn_H5.png") no-repeat;
+          background-size: cover;
+        }
+        .box-title1 {
+          width: (232/16) + rem;
+          height: (44/16) + rem;
+          background: url('../../assets/img/basketball/h5/H5hdnr备份.png') no-repeat;
+          background-size: cover;
+          margin: 0 auto;
+        }
+      }
+    .box-rule {
+        height: (500/16) + rem;
+        .box-cont {
+            width: (345/16) + rem;
+            height: (462/16) + rem;
+            margin: auto;
+            padding-top: (10/16) + rem;
+            p {
+                font-size: (13/16) + rem;
+                color: #DADADA;
+                line-height: (24/16) + rem;
+            }
+        }
+    }
+}
+    
+  
+  
+  

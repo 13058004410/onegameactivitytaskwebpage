@@ -1,0 +1,84 @@
+@import "./normaliz.scss";
+@import "./screen750.scss";
+* {
+  box-sizing: border-box;
+}
+.box-wrapper {
+  background: url("../assets/img/moreSave/BG.png") no-repeat 0 0;
+  background-size: cover;
+  padding-top: (440/16) + rem;
+  padding-bottom: (30/16) + rem;
+}
+.ac-content-box {
+  background: url("../assets/img/moreSave/hdnr_bg.png") no-repeat 0 0;
+  background-size: cover;
+  width: (335/16) + rem;
+  height: (480/16) + rem;
+  margin: auto;
+  padding: (30/16) + rem 0 (20/16) + rem 0;
+
+  .title-bg {
+    background: url("../assets/img/moreSave/hdnr_bt.png") no-repeat 0 0;
+    background-size: cover;
+    width: (169/16) + rem;
+    height: (20/16) + rem;
+    margin: auto;
+  }
+  > p {
+    font-size: (14/16) + rem;
+    color: #687391;
+    letter-spacing: 0;
+    margin: 0 (20/16) + rem;
+    margin-top: (20/16) + rem;
+  }
+  div:nth-child(3) {
+    background: url("../assets/img/moreSave/biaoge.png") no-repeat 0 0;
+    background-size: cover;
+    margin-top: (20/16) + rem;
+    width: (315/16) + rem;
+    height: (270/16) + rem;
+    margin: auto;
+    margin-top: (20/16) + rem;
+  }
+  div:nth-child(4) {
+    background: url("../assets/img/moreSave/lq_btn.png") no-repeat 0 0;
+    background-size: cover;
+    width: (141/16) + rem;
+    height: (40/16) + rem;
+    margin: auto;
+    margin-top: (20/16) + rem;
+  }
+}
+
+.ac-content-g {
+  background: url("../assets/img/moreSave/hdgz_bg.png") no-repeat 0 0;
+  background-size: cover;
+  width: (335/16) + rem;
+  height: (770/16) + rem;
+  margin: auto;
+  margin-top: (20/16) + rem;
+  padding: (30/16) + rem (15/16) + rem (40/16) + rem (15/16) + rem;
+  .title-bg {
+    background: url("../assets/img/moreSave/hdgz_bt.png") no-repeat 0 0;
+    background-size: cover;
+    width: (169/16) + rem;
+    height: (20/16) + rem;
+    margin: auto;
+  }
+  div:nth-child(2) {
+    font-size: (14/16) + rem;
+    color: #687391;
+    letter-spacing: 0;
+    line-height: (22/16) + rem;
+    margin-top: (20/16) + rem;
+    > p:not(:last-child) {
+      margin-bottom: (24/16) + rem;
+    }
+    > p > span {
+      font-size: (14/16) + rem;
+      color: #d5af86;
+      letter-spacing: 0;
+      line-height: (22/16) + rem;
+    }
+  }
+}

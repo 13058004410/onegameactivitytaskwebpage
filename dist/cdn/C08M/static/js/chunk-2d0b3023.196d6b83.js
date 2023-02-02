@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b3023"],{2719:function(n,p,c){n.exports=c.p+"cdn/C08M/static/img/djgx_btn.ffb7ce45.png"}}]);

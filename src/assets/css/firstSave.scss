@@ -1,0 +1,168 @@
+@import './normaliz.scss';
+@import './screen750.scss';
+html,body{
+    width: 100%;
+    height: 100%;
+    background: rgb(29, 30, 42);
+}
+.first{
+    @include full_fixed(750);
+    // background: #d9c4b1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .view{
+        flex: 1 1 0;
+        overflow: hidden;
+        position: relative;
+        .scroll{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            .content{
+                // padding-bottom: 3rem;
+            }
+        }
+    }
+    .top{
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .contentBox{
+        background: url('../img/firstSave/bj.png') no-repeat;
+        background-size: 100% 100%;
+        .content{
+            width: 92%;
+            margin: 0 auto;
+        }
+        h3{
+            font-size:0.85rem ;
+            color: #8c86e3;
+            text-align: center;
+            span{
+                color: #e3b87a;
+            }
+        }
+        .time{
+            margin-top:1.875rem ;
+        }
+        .fs{
+            margin-top: 1.09375rem;
+        }
+        .receive{
+            width: 33%;
+            height: auto;
+            margin: 0.5rem auto;
+            display: block;
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .tab{
+            background: rgba(58,57,130,0.5);
+            border: 2px solid #3a3982;
+            border-radius:0.5rem ;
+            margin-top: 1.718rem;
+            padding: 0 1rem;
+            .tie{
+                display: flex;
+                justify-content:space-between ;
+                margin:1.56rem 0;
+                li{
+                    font-size: 0.875rem;
+                    background: linear-gradient(to bottom,#dcbe8e,#be935a);
+                    -webkit-background-clip: text;
+                    color: transparent;
+                    font-size:0.875rem ;
+                    
+                }
+            }
+            .pre{
+                display: flex;
+                justify-content:space-between ;
+                li{
+                    color: #8c86e3;
+                    font-size: 0.875rem;
+                } 
+            }
+            h5{
+                background: linear-gradient(to bottom,#dcbe8e,#be935a);
+                -webkit-background-clip: text;
+                color: transparent;
+                font-size: 0.875rem;
+                // padding-left: 1.09375rem;
+                margin-top: 1.7rem;
+            }
+            p{
+                margin-top: 1rem;
+                font-size: 0.875rem;
+                color: #8c86e3;
+            }
+            .exp{
+                margin-top:1.56rem ;
+                padding-bottom: 1.875rem;
+                li{
+                    font-size: 0.875rem;
+                    color: #8c86e3;  
+                }
+            }
+        }
+        .rule{
+            h6{
+                width: 60%;
+                margin: 2.18rem auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            li{
+                font-size: 0.875rem;
+                color: #8c86e3;  
+                padding-bottom:1.875rem ;
+            }
+        }
+    }
+}
+.alertBox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.5);
+    top:0;
+    .alert{
+        position: absolute;
+        height: 16rem;
+        width: 85%;
+        background: url(../img/firstSave/alert.png) no-repeat;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        margin: -8rem -40%;
+        h3{
+            font-size: 1rem;
+            color:rgb(183, 202, 235) ;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        a{
+            display: block;
+            position: absolute;
+            bottom: 1rem;
+            width: 60%;
+            height:2.8rem ;
+            background: rgb(17, 94, 136);
+            color: rgb(165, 202, 223);
+            border-radius: 0.5rem;
+            text-align: center;
+            left: 50%;
+            margin-left: -30%;
+            line-height: 2.8rem;
+        }
+    }
+}

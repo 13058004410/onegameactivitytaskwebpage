@@ -1,0 +1,98 @@
+$count: 89.9422423;
+.container {
+  background: url("../../assets/img/fishing/pc_bg.jpg") no-repeat;
+  background-size: 100%;
+  padding-top: 660 / $count + rem;
+  padding-bottom: 100/ $count+rem;
+}
+.box {
+  width: 1000 / $count + rem;
+  margin: auto;
+  margin-top: -150 / $count + rem;
+}
+.jump {
+  width: 235 / $count + rem;
+  height: 56 / $count + rem;
+  background: url("../../assets/img/fishing/pc_bntn.png") no-repeat;
+  background-size: contain;
+  border: none;
+  margin-left: 240 / $count + rem;
+}
+.mgt72 {
+  margin-top: 72 / $count + rem;
+}
+.mgt34 {
+  margin-top: 34 / $count + rem;
+}
+.mgt24 {
+  margin-top: 24 / $count + rem;
+}
+.mgt56 {
+  margin-top: 56 / $count + rem;
+}
+.mgt17 {
+  margin-top: 17 / $count + rem;
+}
+.mgt20{
+  margin-top: 20 / $count + rem;
+}
+.mgt120{
+  margin-top: 120 / $count + rem;
+}
+.txt1 {
+  font-family: PingFangSC-Semibold;
+  font-size: 24 / $count + rem;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 32 / $count + rem;
+}
+.txt2 {
+  font-family: PingFangSC-Regular;
+  font-size: 20 / $count + rem;
+  color: #ffffff;
+  line-height: 36 / $count + rem;
+}
+.txt3 {
+  font-family: PingFangSC-Regular;
+  font-size: 18/ $count+rem;
+  color: #98a9d6;
+  line-height: 36/ $count+rem;
+}
+.title {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 32 / $count + rem;
+  color: #f7ea00;
+  letter-spacing: 0;
+}
+table {
+  border-style: hidden;
+  width: 100%;
+  thead {
+    background: #004a96;
+    td {
+      color: #fff;
+      font-family: PingFangSC-Semibold;
+      font-size: 20 / $count + rem;
+      letter-spacing: 0;
+    }
+  }
+  tbody {
+    td {
+      font-family: PingFangSC-Medium;
+      font-size: 20 / $count + rem;
+      color: rgba($color: #fff, $alpha: 0.75);
+      letter-spacing: 1 / $count + rem;
+      font-weight: 500;
+      background: #0054a8;
+    }
+    tr:not(:last-child) {
+      border-bottom: 1 / $count + rem solid rgba($color: #fff, $alpha: 0.2);
+    }
+  }
+  td {
+    text-align: center;
+    vertical-align: middle;
+    height: 50 / $count + rem;
+    color: #ffffff;
+  }
+}

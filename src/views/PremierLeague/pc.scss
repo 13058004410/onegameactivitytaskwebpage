@@ -1,0 +1,184 @@
+$count: 99.9422423;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  background: url("../../assets/img/PremierLeague/pc_bg.jpg") no-repeat;
+  background-size: 100%;
+  // background-image: linear-gradient(#010906,#000);
+  background-color: #080705;
+  padding-top: 650 / $count + rem;
+  padding-bottom: 100 / $count + rem;
+}
+.footer {
+  background-color: #1a1716;
+  // padding-top: 900 / $count + rem;
+  // padding-bottom: 100 / $count + rem;
+  .bodys {
+    background-color: #1a1716;
+    width: 1300 / $count + rem;
+    height: 360 / $count + rem;
+    margin: auto;
+    padding: 0 / $count + rem 150 / $count + rem 70 / $count + rem 150 / $count +rem;
+    .head {
+      font-family: PingFangSC-Medium;
+      font-size: 24 / $count + rem;
+      text-align: left;
+      color: #fff;
+      line-height: 35 / $count + rem;
+      padding-left: 5 / $count + rem;
+      padding-top: 43 / $count + rem;
+    }
+    .sub2 {
+      font-family: PingFangSC-Regular;
+      font-size: 18 / $count + rem;
+      color: #90847c;
+      letter-spacing: 0;
+      line-height: 36 / $count + rem;
+      font-weight: 500;
+      margin-top: 20 / $count + rem;
+      padding: 0 5 / $count + rem;
+    }
+  }
+}
+
+.body {
+  width: 1300 / $count + rem;
+  height: 1700 / $count + rem;
+  margin: auto;
+  padding: 70 / $count + rem 150 / $count + rem 70 / $count + rem 150 / $count +rem;
+  .title_time {
+    font-size: 24 / $count + rem;
+    line-height: 32 / $count + rem;
+    text-align: center;
+    color: #fff;
+  }
+}
+.title_sub {
+  // display: flex;
+  align-items: center;
+  // justify-content: center;
+
+  font-family: SourceHanSansCN-Bold;
+  font-size: 32 / $count + rem;
+  text-align: center;
+  color: #f7b500;
+  letter-spacing: 0;
+  line-height: 46 / $count + rem;
+  font-weight: 500;
+  margin-top: 40 / $count + rem;
+  margin-bottom: 30 / $count + rem;
+  .icon {
+    margin-right: 6 / $count + rem;
+  }
+  .icon_t2 {
+    color: #fff;
+    font-size: 20 / $count + rem;
+    line-height: 36 / $count + rem;
+    margin-top: 18 / $count + rem;
+    font-family: PingFangSC-Regular;
+    padding: 0 5 / $count + rem;
+    span {
+      color: #f7b500;
+    }
+  }
+}
+
+.table {
+  // border-radius: 6 / $count + rem;
+  // overflow: hidden;
+  > .thead,
+  .tbody > div {
+    display: flex;
+    > div {
+      text-align: center;
+    }
+    > div:nth-child(1) {
+      flex: 1;
+    }
+    > div:nth-child(2) {
+      // width: 451 / $count + rem;
+      flex: 1;
+    }
+    > div:nth-child(3) {
+      flex: 1;
+    }
+    span {
+      display: block;
+    }
+  }
+  .thead {
+    background: #4B3B3A;
+    line-height: 67 / $count + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 20 / $count + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-weight: 600;
+    border-radius: 3 / $count + rem 3 / $count + rem 0 0;
+    overflow: hidden;
+  }
+  .tbody {
+    border-top: 0;
+    background-color: #544241;
+    font-family: PingFangSC-Regular;
+    font-size: 20 / $count + rem;
+    color: #fff;
+    letter-spacing: 1 / $count + rem;
+    font-weight: 500;
+
+    border-radius: 0 0 3 / $count + rem 3 / $count + rem;
+    overflow: hidden;
+    > div {
+      height: 66 / $count + rem;
+      border-bottom: 1 / $count + rem solid #655554;
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          font-style: normal;
+          color: #f16a00;
+        }
+      }
+    }
+  }
+}
+.btn {
+  width: 235 / $count + rem;
+  height: 56 / $count + rem;
+  margin: 32 / $count + rem auto 32 / $count + rem auto;
+  cursor: pointer;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+.sub {
+  font-family: PingFangSC-Semibold;
+  font-size: 18 / $count + rem;
+  color: #f7b500;
+  letter-spacing: 0;
+  line-height: 28 / $count + rem;
+  font-weight: 500;
+  margin-top: 20 / $count + rem;
+  padding: 0 5 / $count + rem;
+  .play {
+    color: #f7b500;
+  }
+  span {
+    color: #937b4e;
+  }
+}
+.sub2 {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #9b9a94;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 30 / $count + rem;
+}

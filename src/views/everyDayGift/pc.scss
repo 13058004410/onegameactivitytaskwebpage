@@ -1,0 +1,197 @@
+$count: 99.9422423;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: #EBE0D6 url("../../assets/img/everyDayGift/bg.jpg") no-repeat;
+  background-size: contain;
+  padding-top: 621 / $count + rem;
+  padding-bottom: 100 / $count + rem;
+}
+
+.body {
+  background: url("../../assets/img/everyDayGift/hdnr_bg.png") no-repeat center;
+  background-size: cover;
+  width: 1300px;
+  height: 1382px;
+  margin: auto;
+  padding: 70 / $count + rem 100 / $count + rem 70 / $count + rem 100 / $count + rem;
+}
+
+.title_1 {
+  background: url("../../assets/img/everyDayGift/hdsj.png") no-repeat center;
+  background-size: cover;
+  width: 194 / $count + rem;
+  height: 100 / $count + rem;
+  margin: auto;
+}
+
+.title_t_1 {
+  font-family: PingFangSC-Medium;
+  font-size: 28 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30 / $count + rem;
+}
+
+.title_2 {
+  background: url("../../assets/img/everyDayGift/hdnr.png") no-repeat center;
+  background-size: cover;
+  width: 194 / $count + rem;
+  height: 100 / $count + rem;
+  margin: auto;
+  margin-top: 20 / $count + rem;
+}
+
+.title_sub {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+
+  font-family: AppleSDGothicNeo-Medium;
+  font-size: 24 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 30 / $count + rem;
+  margin-bottom: 20 / $count + rem;
+  .icon {
+    margin-right: 6 / $count + rem;
+  }
+}
+
+.table {
+  // border-radius: 6 / $count + rem;
+  // overflow: hidden;
+  padding-top: 20px;
+  > .thead,
+  .tbody > div {
+    display: flex;
+    > div {
+      text-align: center;
+    }
+    > div:nth-child(1) {
+      width: 200 / $count + rem;
+    }
+    > div:nth-child(2) {
+      width: 351 / $count + rem;
+      // flex: 1;
+    }
+    > div:nth-child(3) {
+      // width: 244 / $count + rem;
+      flex: 1;
+    }
+    > div:nth-child(4) {
+      flex: 1;
+      // width: 170 / $count + rem;
+    }
+  }
+  .thead {
+    background: #D0A881;
+    line-height: 67 / $count + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 20 / $count + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-weight: 600;
+    border-radius: 6 / $count + rem 6 / $count + rem 0 0;
+    overflow: hidden;
+  }
+  .tbody {
+    border: 1 / $count + rem solid rgba(203,162,117,1);
+    border-top: 0;
+
+    font-family: DINPro-Medium;
+    font-size: 20 / $count + rem;
+    color: #63676C;
+    letter-spacing: 1 / $count + rem;
+    font-weight: 500;
+
+    border-radius: 0 0 6 / $count + rem 6 / $count + rem;
+    overflow: hidden;
+
+    > div {
+      height: 66 / $count + rem;
+      border-bottom: 1 / $count + rem solid rgba(203,162,117,1);
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          font-style: normal;
+          color: #f16a00;
+        }
+      }
+      > div:not(:last-child) {
+        border-right: 1 / $count + rem solid rgba(203,162,117,1);
+      }
+    }
+    >div:last-child{
+      border-bottom: 0 / $count + rem solid #7984a8;
+    }
+  }
+}
+
+.table.t2 {
+  > .thead,
+  .tbody > div {
+    > div:nth-child(1) {
+      width: 205 / $count + rem;
+    }
+    > div:nth-child(2) {
+      // width: 451 / $count + rem;
+      flex: 1;
+    }
+    > div:nth-child(3) {
+      width: 268 / $count + rem;
+    }
+    > div:nth-child(4) {
+      width: 203 / $count + rem;
+    }
+    > div:nth-child(5) {
+      width: 120 / $count + rem;
+    }
+  }
+}
+
+.sub {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 20 / $count + rem;
+}
+
+.title_3 {
+  background: url("../../assets/img/everyDayGift/hdgz.png") no-repeat center;
+  background-size: cover;
+  width: 194 / $count + rem;
+  height: 100 / $count + rem;
+  margin: auto;
+  margin-top: 30 / $count + rem;
+}
+
+.sub2 {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  margin-top: 30 / $count + rem;
+  font-size: 20px;
+  p{
+  padding-top: 5px;
+  }
+  span{
+    color: #F16A00;
+  }
+}

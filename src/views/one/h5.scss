@@ -1,0 +1,92 @@
+.bg {
+  width: 100%;
+}
+.box {
+  padding: 0 20/16+rem 40/16+rem 20/16+rem;
+}
+.bg-t {
+  width: 112/16+rem;
+  height: 25/16+rem;
+}
+.bg-t2 {
+  width: 133/16+rem;
+  height: 25/16+rem;
+}
+.bg-t3 {
+  width: 116/16+rem;
+  height: 25/16+rem;
+}
+.y{
+  color: #DCB468;
+}
+.mgt-12{
+  margin-top: 12/16+rem;
+}
+.mgt-30{
+  margin-top: 30/16+rem;
+}
+.mgt-20{
+  margin-top: 20/16+rem;
+}
+.mgt-10{
+  margin-top: 10/16+rem;
+}
+.txt-1 {
+  font-family: PingFangSC-Medium;
+  font-size: 14/16+rem;
+  color: #7984a8;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+.txt-2 {
+  font-family: AppleSDGothicNeo-Medium;
+  font-size: 16/16+rem;
+  color: #7783a7;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+.txt-3{
+  font-family: AppleSDGothicNeo-Medium;
+  font-size: 16/16+rem;
+  color: #7783a7;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+table {
+  border-radius: 6/16+rem 6/16+rem 0 0;
+  overflow: hidden;
+  width: 100%;
+  thead {
+    background: #7984a8;
+    td {
+      height: 40/16+rem;
+      color: #fff;
+    }
+  }
+  td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1/16+rem solid #7984a8;
+    height: 37.5/16+rem;
+
+    font-family: PingFangSC-Semibold;
+    font-size: 13/16+rem;
+    color: #7984a8;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+.jump{
+  text-align: center;
+  button {
+    width: 141/16+rem;
+    height: 40/16+rem;
+    border: none;
+    background: url("../../assets/img/one/lq_btn_h5.png") no-repeat;
+    background-size: cover;
+  }
+  
+}

@@ -1,0 +1,273 @@
+@import '../../assets/css/normaliz.scss';
+@import '../../assets/css/media.scss';
+.app-logo {
+  margin: 8vw auto 0;
+  width: 30.27vw;
+  img {
+    width: 100%;
+  }
+}
+.txt-title {
+  img {
+    width: 100%;
+  }
+  &.txt-title1 {
+    margin: 3.57vw auto;
+    width: 85.6%;
+  }
+  &.txt-title2 {
+    margin: 0 auto;
+    width: 47.47%;
+  }
+}
+.box-wrapper {
+  position: relative;
+  padding: 0 0.6rem;
+  .box-title {
+    position: absolute;
+    top: -1.205rem;
+    left: 50%;
+    margin-left: -6.1rem;
+    width: 12.19rem;
+    height: 2.41rem;
+  }
+  &.box-wrapper1 {
+    margin: 11.4rem auto 0;
+    width: 90%;
+    height: 11.53rem;
+    background: url('../../assets/img/washCode/bg-box1.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    .box-title {
+      background: url('../../assets/img/washCode/title1.png') no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .box-content {
+      font-size: 14px;
+    }
+  }
+  &.box-wrapper2 {
+    margin: 3rem auto 0;
+    padding-bottom: 2rem;
+    width: 90%;
+    max-height: 27.59rem;
+    background: url('../../assets/img/washCode/bg-box2.png') no-repeat 0 0;
+    background-size: 100% 100%;
+    .clearbox {
+      width: 100%;
+      height: 2rem;
+    }
+    .box-title {
+      background: url('../../assets/img/washCode/title2.png') no-repeat 0 0;
+      background-size: 100% 100%;
+    }
+    .box-content {
+      ul {
+        li {
+          display: flex;
+          font-size: 12px;
+          margin-bottom: 0.6rem;
+          .point {
+            width: 0.5rem;
+          }
+          p {
+            flex: 1;
+          }
+        }
+      }
+      .rule-title {
+        margin-bottom: 0.3rem;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 2;
+      }
+      .rule-tips {
+        font-size: 12px;
+        padding-bottom: 0.5rem;
+      }
+      .rule-table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.8rem;
+        border: 1px solid #666;
+        thead {
+          th {
+            font-weight: normal;
+            text-align: center;
+            background-color: #e5e5e5;
+            border: 1px solid #666;
+          }
+        }
+        tbody {
+          td {
+            border: 1px solid #666;
+          }
+        }
+      }
+    }
+  }
+}
+.box-tab {
+  .tab-head {
+    display: flex;
+    justify-content: space-around;
+    div {
+      position: relative;
+      margin: 1.6rem auto;
+      width: 6.56rem;
+      text-align: center;
+      cursor: pointer;
+      &.active {
+        font-weight: 600;
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          width: 100%;
+          height: 0.28rem;
+          background: url('../../assets/img/washCode/line.png') no-repeat 0 0;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }
+  .tab-body {
+    line-height: 2;
+  }
+  .tab-content {
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+}
+.btn-list {
+  color: #393dbc;
+}
+.wash-status {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 3px 6px;
+  height: 0.81rem;
+  color: #fff;
+  line-height: 0.81rem;
+  vertical-align: baseline;
+  border-radius: 500px;
+  &.status-no {
+    background-color: #393dbc;
+  }
+  &.status-yes {
+    background-color: #d03554;
+  }
+}
+.icon-date {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: url('../../assets/img/washCode/icon-date.png') no-repeat center
+    center;
+  background-size: 100% 100%;
+}
+.icon-count {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  background: url('../../assets/img/washCode/icon-count.png') no-repeat center
+    center;
+  background-size: 100% 100%;
+}
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 99;
+  .modal-main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    .modal-box {
+      width: 80%;
+      min-height: 9rem;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      .modal-table {
+        margin: 0.6rem auto;
+      }
+      .modal-head {
+        position: relative;
+        text-align: center;
+        height: 2.81rem;
+        line-height: 2.81rem;
+        color: #fff;
+        background: url('../../assets/img/washCode/bg-modal-title.png')
+          no-repeat center center;
+        background-size: cover;
+        .btn-close {
+          position: absolute;
+          top: 1rem;
+          right: 1rem;
+          width: 0.8rem;
+          height: 0.8rem;
+          background: url('../../assets/img/washCode/btn-close.png') no-repeat 0
+            0;
+          background-size: cover;
+        }
+      }
+      [class^='icon-'] {
+        margin-right: 0.2rem;
+      }
+      .table-item {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 14.38rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        border-bottom: 1px solid #e0e0e0;
+      }
+      .table-body {
+        max-height: 20rem;
+        overflow-y: auto;
+      }
+      .table-foot {
+        .table-item {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
+.rule-table-img {
+  display: none;
+  img {
+    width: 100%;
+  }
+}
+@media screen and(min-width: 320px) and(max-width: 360px) {
+  .app-wrapper .app-view .app-scroll .app-img {
+    min-height: 1054px;
+    background-color: #822c52;
+  }
+  .box-wrapper.box-wrapper2 .box-content {
+    ul li {
+      margin-bottom: 0.2rem;
+    }
+    .rule-tips {
+      width: 150%;
+      transform: scale(0.8);
+      transform-origin: left;
+    }
+    .rule-table {
+      display: none;
+    }
+    .rule-table-img {
+      display: block;
+    }
+  }
+}

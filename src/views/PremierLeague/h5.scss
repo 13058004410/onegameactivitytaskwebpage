@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  background: url("../../assets/img/PremierLeague/h5/h5_bg.jpg") no-repeat;
+  background-size: 100%;
+  // background-image: linear-gradient(#010906,#000);
+  background-color: #0c0606;
+  padding: 280/16 + rem 15/16 + rem 40/16 + rem 15/16 + rem;
+  .title_time {
+    font-family: PingFangSC-Semibold;
+    font-size: 16 / 16 + rem;
+    line-height: 24 / 16 + rem;
+    text-align: center;
+    color: #fff;
+  }
+}
+.btn {
+  width: 165/16 + rem;
+  height: 40/16 + rem;
+  margin: 24/16 + rem auto 32/16 + rem auto;
+  cursor: pointer;
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+.lines{border: 0.25/16 + rem solid #fff;position: absolute;width: 100%;margin-left: -15/16 + rem;opacity: 0.1;}
+.title_sub {
+  margin: 25/16 + rem 0 + rem 10/16 + rem 0 + rem;
+  text-align: center;
+  .icon_t {
+    height: 20/16 + rem;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 14/16 + rem;
+    color: #f7b500;
+    letter-spacing: 0;
+    line-height: 20/16 + rem;
+    font-weight: 500;
+  }
+  .icon_ts {
+    height: 29/16 + rem;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 20/16 + rem;
+    color: #f7b500;
+    letter-spacing: 0;
+    line-height: 29/16 + rem;
+    font-weight: 500;
+  }
+  .icon_t2 {
+    color: #fff;
+    font-size: 13 / 16 + rem;
+    line-height: 24 / 16 + rem;
+    margin-top: 13 / 16 + rem;
+    font-family: PingFangSC-Regular;
+    span {
+      color: #f7b500;
+    }
+  }
+}
+.table {
+  > .thead,
+  .tbody > div {
+    display: flex;
+    > div {
+      text-align: center;
+    }
+    > div:nth-child(1) {
+      width: 152 / 16 + rem;
+    }
+    > div:nth-child(2) {
+      // width: 451 / 16 + rem;
+      flex: 1;
+    }
+    > div:nth-child(3) {
+      flex: 1;
+    }
+    .div1 {
+      flex: 1;
+    }
+    span {
+      display: block;
+    }
+  }
+  .thead {
+    background: #4b3b3a;
+    line-height: 40 / 16 + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 13 / 16 + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+    font-weight: 600;
+    border-radius: 3 / 16 + rem 3 / 16 + rem 0 0;
+    overflow: hidden;
+  }
+  .tbody {
+    border-top: 0;
+    background-color: #544241;
+    font-family: PingFangSC-Regular;
+    font-size: 12 / 16 + rem;
+    color: #fff;
+    opacity: 0.75;
+    letter-spacing: 1 / 16 + rem;
+    font-weight: 500;
+    border-radius: 0 0 3 / 16 + rem 3 / 16 + rem;
+    overflow: hidden;
+    > div {
+      height: 40 / 16 + rem;
+      border-bottom: 1 / 16 + rem solid #655554;
+      > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+          font-style: normal;
+          color: #f16a00;
+        }
+      }
+    }
+  }
+}
+.sub {
+  font-family: PingFangSC-Semibold;
+  font-size: 12px;
+  color: #f7b500;
+  letter-spacing: 0;
+  font-weight: 500;
+  line-height: 24 / 16 + rem;
+  margin-top: 5/16 + rem;
+  padding-bottom: 20/16+rem;
+  span {
+    color: #937b4e;
+  }
+  .play {
+    color: #d8c087;
+  }
+}
+.tops {
+  margin-top: 10/16 + rem;
+}
+.sub2 {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #9b9a94;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 500;
+  span {
+    color: #937b4e;
+  }
+}
+
+.footer {
+  background-color: #1a1716;
+  .bodys {
+    background-color: #1a1716;
+    margin: auto;
+    padding: 0 + rem 20/16 + rem 30/16 + rem 20/16 + rem;
+    .head {
+      font-family: PingFangSC-Medium;
+      font-size: 18 / 16 + rem;
+      text-align: center;
+      color: #fff;
+      line-height: 26 / 16 + rem;
+      padding-left: 5 / 16 + rem;
+      padding-top: 22 / 16 + rem;
+    }
+    .sub2 {
+      font-family: PingFangSC-Regular;
+      font-size: 13 / 16 + rem;
+      color: #90847c;
+      letter-spacing: 0;
+      line-height: 24 / 16 + rem;
+      font-weight: 500;
+      margin-top: 20 / 16 + rem;
+      padding: 0 5 / 16 + rem;
+    }
+  }
+}

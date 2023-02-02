@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title></title>
+</head>
+<body>
+  <div id='app'></div>
+  <script src="/init.js?1"></script>
+  <script>
+    init()
+  </script>
+  <script>
+    var isPro = <%=isPro%>
+    var files= <%=files%>
+    if (isPro) {
+      // 如果需要选址
+      cdnPing(function() {
+        createTags(files)
+      })
+
+      //如果不需要cdn选址
+      // createTags(files)
+    }
+  </script>
+</body>
+</html>

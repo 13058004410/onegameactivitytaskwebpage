@@ -1,0 +1,65 @@
+.container{
+    .activity_desc{
+        font-family: PingFangSC-Medium;
+        background: #fff;
+        font-size: (12/16) + rem;
+        color: #606266;
+        padding: 0 (16/16) + rem;
+        margin-top:(30/16) + rem;
+
+        div{
+            font-size: (14/16) + rem;
+            font-weight: 600;
+            color: #303133;
+            // text-align: center;
+            padding: (20/16) + rem 0 (5/16) + rem 0;
+        }
+        div:nth-child(1){
+            padding: (10/16) + rem 0 (10/16) + rem 0;
+        }
+        table{
+            width: 100%;
+            border: (0.5/16) + rem solid #ebedf0;
+            border-radius: (4/16) + rem;
+            text-align: center;
+            thead{
+                tr{
+                    width: 100%;
+                    background-color: #fffcf1;
+                    th{
+                        border: (0.5/16) + rem solid #ebedf0;
+                        padding: (5/16) + rem (5/16) + rem;
+                    }
+                    th:nth-child(1){
+                        width: (60/16) + rem;
+                    }
+                    th:nth-child(3){
+                        width: (60/16) + rem;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    width: 100%;
+                    color: #303133;
+                    td{
+                        border: (0.5/16) + rem solid #ebedf0;
+                        line-height: (17/16) + rem;
+                        padding: (5/16) + rem (5/16) + rem;
+                    }
+                    td:nth-child(2){
+                        text-align: left;
+                        padding: (5/16) + rem (10/16) + rem;
+                    }
+                }
+            }
+        }
+        p{
+            // padding-bottom: (16/16) + rem;
+            line-height: (24/16) + rem;
+        }
+        p:last-child {
+            padding-bottom: (20/16) + rem;
+        }
+    }
+}

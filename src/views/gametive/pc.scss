@@ -1,0 +1,390 @@
+$count: 99.9422423;
+* {
+    box-sizing: border-box;
+}
+.content {
+    background: #E7ECF7 url('../../assets/img/gametive/bg1pc.jpg') no-repeat;
+    padding-top: 586/$count+rem;
+    padding-bottom: 100/$count+rem;
+    background-size: 100%;
+}
+.guess-content2 {
+    height: 1751/$count+rem !important;
+    background-image: url('../../assets/img/gametive/jc_bg2.png') !important;
+}
+.guess-content {
+    width: 1300/$count+rem;
+    height: 818/$count+rem;
+    margin: 0 auto;
+    background: url('../../assets/img/gametive/jc_bg.png') no-repeat;
+    background-size: 100%;
+    .tab-list {
+        width: 736/$count+rem;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        top: -5/$count+rem;
+        .tab-one {
+            width: 343/$count+rem;
+            height: 100/$count+rem;
+            background-image: url('../../assets/img/gametive/ssjc_tit_pre.png');
+            background-size: 100%;
+            margin-right: 54/$count+rem;
+            cursor: pointer;
+        }
+        .tab-two {
+            width: 343/$count+rem;
+            height: 100/$count+rem;;
+            background-image: url('../../assets/img/gametive/wdjc_tit.png');
+            background-size: 100%;
+            cursor: pointer;
+        }
+        .tab-one-click {
+            width: 343/$count+rem;
+            height: 100/$count+rem;
+            background-image: url('../../assets/img/gametive/ssjc_tit.png');
+            background-size: 100%;
+            margin-right: 54/$count+rem;
+            cursor: pointer;
+        }
+        .tab-two-click {
+            width: 343/$count+rem;
+            height: 100/$count+rem;
+            background-image: url('../../assets/img/gametive/wdjc_tit_pre.png');
+            background-size: 100%;
+            cursor: pointer;
+        }
+    }
+    .guess-time {
+        width: 532/$count+rem;
+        height: 36/$count+rem;
+        font-size: 24/$count+rem;
+        color: #7984A8;
+        letter-spacing: 0;
+        line-height: 36/$count+rem;
+        font-weight: 500;
+        margin: 20/$count+rem auto;
+        margin-bottom: 40/$count+rem;
+    }
+    .guess-team{
+        width: 734/$count+rem;
+        margin: 0 auto;
+        display: flex;
+        font-size: 26/$count+rem;
+        color: #424B53;
+        letter-spacing: 0;
+        text-align: center;
+        font-weight: 500;
+        justify-content: center;
+        .vs {
+            margin: 0 83/$count+rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .img{
+                width: 118/$count+rem;
+                height: 90/$count+rem; 
+                background-image: url('../../assets/img/gametive/vs.png');
+                background-size: 100%;
+                margin-bottom: 20/$count+rem;
+            }
+            .time {
+                font-size: 20/$count+rem;
+                color: #444B52;
+                letter-spacing: 0;
+                font-weight: 500;
+            }
+        }
+        .home-team{
+            .home-img {
+                width: 159/$count+rem;
+                height: 148/$count+rem;
+                background-image: url('../../assets/img/gametive/dwk.png');
+                background-size: 100%;
+                margin-bottom: 11/$count+rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                img {
+                    width: 110/$count+rem;
+                    height: 83/$count+rem;
+                }
+            }
+        }
+        .away-team{
+            .away-img {
+                width: 159/$count+rem;
+                height: 148/$count+rem;
+                background-image: url('../../assets/img/gametive/dwk.png');
+                background-size: 100%;
+                margin-bottom: 11/$count+rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                img {
+                    width: 110/$count+rem;
+                    height: 83/$count+rem;
+                }
+            }
+        }
+    }
+    .guess-ques {
+        font-size: 20/$count+rem;
+        color: #444B52;
+        letter-spacing: 0;
+        font-weight: 500;
+        text-align: center;
+        width: 800/$count+rem;
+        margin: 0 auto;
+        p{
+            margin-top: 30/$count+rem;
+        }
+        .answer-group {
+            margin-top: 20/$count+rem;
+            display: flex;
+            justify-content: center;
+            .answer-item {
+                padding: 10/$count+rem 20/$count+rem 10/$count+rem 20/$count+rem;
+                border-radius: 4/$count+rem;
+                background-color: #EEF3F9;
+                margin-right: 30/$count+rem;
+                cursor: pointer;
+            }
+            .acive {
+                color: #FFFFFF;
+                background: #7984A8;
+            }
+            .acive1 {
+                color: #FFFFFF;
+                background: #7984A8;
+            }
+            .acive2 {
+                color: #FFFFFF;
+                background: #7984A8;
+            }
+            .acive3 {
+                color: #FFFFFF;
+                background: #7984A8;
+            }
+        }
+    }
+    .submit {
+        width: 240/$count+rem;
+        height: 60/$count+rem;
+        background-image: url('../../assets/img/gametive/tjda_btn_pre.png');
+        background-size: 100%;
+        margin-top: 50/$count+rem;
+        margin-bottom: 70/$count+rem;
+        margin: 60/$count+rem auto;
+        cursor: pointer;
+    }
+}
+.active-content {
+    width: 1300/$count+rem;
+    height: 2251/$count+rem;
+    margin: 0 auto;
+    background-image: url('../../assets/img/gametive/nr_bg.png');
+    background-size: 100%; 
+    margin-top: 50/$count+rem;
+    padding: 77/$count+rem 100/$count+rem 55/$count+rem 100/$count+rem;
+    .active-title {
+        width: 196/$count+rem;
+        height: 100/$count+rem;
+        background-image: url('../../assets/img/gametive/hdnr.png');
+        background-size: 100%;
+        margin: 0 auto;
+        margin-bottom: 30/$count+rem;
+    }
+    .active-word {
+        font-size: 20/$count+rem;
+        color: #444B52;
+        letter-spacing: 0;
+        line-height: 36/$count+rem;
+        font-weight: 500;
+        margin-bottom: 30/$count+rem;
+    }
+    .active-title2 {
+        width: 270/$count+rem;
+        height: 68/$count+rem;
+        background-image: url('../../assets/img/gametive/wqjcda.png');
+        background-size: 100%;
+        margin: 0 auto;
+        margin-bottom: 20/$count+rem;
+    }
+    .active-team {
+        font-size: 24/$count+rem;
+        color: #7984A8;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 36/$count+rem;
+        font-weight: 500;
+        margin-bottom: 20/$count+rem;
+    }
+    .active-swiper {
+        position: relative;
+    }
+    .active-title3 {
+        width: 270/$count+rem;
+        height: 72/$count+rem;
+        background-image: url('../../assets/img/gametive/lszjmd.png');
+        background-size: 100%;
+        margin: 30/$count+rem auto;
+    }
+    .prize-list {
+        width: 1100/$count+rem;
+        .mgt20 {
+            width: 100%;
+            height: 67.21/$count+rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            font-size: 20/$count+rem;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            font-weight: 600;
+            background-color: #7984A8;
+            text-align: center;
+            line-height: 67/$count+rem;
+            span {
+                &:first-child{
+                    flex: 1;
+                }
+                &:nth-child(2){
+                    flex: 2;
+                }
+                &:last-child{
+                    flex: 1;
+                }
+            }
+        }
+        #box {
+            width: 100%;
+            height: 358/$count+rem;
+            line-height: 70/$count+rem;
+            overflow: hidden;
+            transition: all 0.5s;
+        }
+        .table-tr {
+            display: flex;
+            justify-content: center;
+            span{
+                text-align: center;
+                font-family: PingFangSC-Medium;
+                font-size: 20/$count+rem;
+                color: #63676C;
+                letter-spacing: 0;
+                font-weight: 500;
+                &:first-child {
+                    flex: 1;
+                    border-left: 2/$count+rem solid #7984A8;
+                    border-right: 2/$count+rem solid #7984A8;
+                    border-bottom: 2/$count+rem solid #7984A8;
+                }
+                &:nth-child(2) {
+                    flex: 2;
+                    border-right: 2/$count+rem solid #7984A8;
+                    border-bottom: 2/$count+rem solid #7984A8;
+                }
+                &:last-child {
+                    flex: 1;
+                    border-right: 2/$count+rem solid #7984A8;
+                    border-bottom: 2/$count+rem solid #7984A8;
+                }
+            }
+        }
+    }
+    .prize-word {
+        width: 1100/$count+rem;
+        font-family: PingFangSC-Medium;
+        font-size: 20/$count+rem;
+        color: #444B52;
+        letter-spacing: 0;
+        line-height: 36/$count+rem;
+        font-weight: 500;
+        margin-top: 30/$count+rem;
+    }
+    .prize-rule {
+        width: 196/$count+rem;
+        height: 100/$count+rem;
+        background-image: url('../../assets/img/gametive/hdgz.png');
+        background-size: 100%;
+        margin: 30/$count+rem auto;
+    }
+    .rule-word {
+        font-size: 20/$count+rem;
+        color: #444B52;
+        letter-spacing: 0;
+        line-height: 36/$count+rem;
+        font-weight: 500; 
+    }
+}
+.after-list{
+    padding: 23/$count+rem 185/$count+rem 65/$count+rem 185/$count+rem;
+    .record {
+        height: 560/$count+rem;
+        overflow-y: scroll;
+    }
+    .record-list {
+        width: 900/$count+rem;
+        font-size: 18/$count+rem;
+        color: #444B52;
+        letter-spacing: 0;
+        font-weight: 500;
+    }
+    .record-time {
+        height: 48/$count+rem;
+        background: #B2C3DF;
+        padding: 0 30/$count+rem;
+        display: flex;
+        justify-content: space-between;
+        line-height: 48/$count+rem;
+        color: #fff;
+        font-size: 20/$count+rem;
+        letter-spacing: 0;
+        font-weight: 500;
+        .prizeno {
+            color: #606266; 
+        }
+        .prizeget {
+            color: red;
+        }
+    }
+    .ques-content {
+        height: 221/$count+rem;
+        background: #EDF0F9;
+        padding: 10/$count+rem 0 20/$count+rem 30/$count+rem;
+        .record-team {
+            font-size: 18/$count+rem;
+            color: #444B52;
+            letter-spacing: 0;
+            font-weight: 500;
+            margin-bottom: 10/$count+rem;
+            .vs {
+                margin: 0 18/$count+rem;
+            }   
+        }
+        .record-ques {
+            p {
+                font-size: 16/$count+rem;
+                color: #444B52;
+                letter-spacing: 0;
+                font-weight: 500;
+                margin-bottom: 10/$count+rem;
+            }
+            span {
+                font-size: 15/$count+rem;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                font-weight: 500;
+                padding: 10/$count+rem 20/$count+rem 10/$count+rem 20/$count+rem;
+                background: #B2C3DF;
+                border-radius: 4/$count+rem;
+                line-height: 46/$count+rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

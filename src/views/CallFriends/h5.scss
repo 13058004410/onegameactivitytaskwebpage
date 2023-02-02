@@ -1,0 +1,143 @@
+.container{
+    .banner_img{
+        width: 100%;
+        position: relative;
+        background: url("../../assets/img/CallFriends/h5/h5_bg.jpg") no-repeat;
+        background-size: 100%;
+        height: (342/16) + rem;
+        .banner_text{
+            padding-top: (275/16) + rem;
+            text-align: center;
+            p{
+                font-size: (14/16) + rem;
+                color: #5E607A;
+                &:nth-child(2){
+                    font-size: (18/16) + rem;
+                    color: #55576A;
+                    margin-top: (15/16) + rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .main{
+        margin: 0 (16/16) + rem;
+        .des{
+            font-size: (13/16) + rem;
+            color: #5E607A;
+            text-align: center;
+            line-height: (20/16) + rem;
+        }
+        .des-img{
+            width: 100%;
+            margin: (11/16) + rem 0 (19/16) + rem 0;
+        }
+        .rule{
+            font-size: (12/16) + rem;
+            line-height: (22/16) + rem;
+            color: #5E607A;
+            text-align: center;
+            div{
+                i{
+                    color:  #E34F48;
+                    font-style: normal;
+                }
+                span{
+                    color: #5E607A;
+                }
+            }
+        }
+        .btn{
+            width: (220/16) + rem;
+            height: (48/16) + rem;
+            margin: (13/16) + rem auto (32/16) + rem auto;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        .recommend{
+            font-family: PingFangSC-Semibold;
+            font-size: (14/16) + rem;
+            color: #55576A;
+            text-align: center;
+            p{
+                &:nth-child(2){
+                    line-height: (23/16) + rem;
+                    margin-top:(14/16) + rem;
+                    color: #E34F48;
+                }
+            }
+        }
+    }
+    .activity_desc{
+        background: #F5F5F5;
+        font-size: (13/16) + rem;
+        color: #5E607A;
+        padding: 0 (16/16) + rem;
+        margin-top:(30/16) + rem;
+
+        div{
+            font-size: (18/16) + rem;
+            font-weight: 600;
+            color: #55576A;
+            text-align: center;
+            padding: (20/16) + rem 0 (26/16) + rem 0;
+        }
+        p{
+            padding-bottom: (16/16) + rem;
+        }
+    }
+    .model{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div{
+            width: 328/16+rem;
+            background: #FFFFFF;
+            border-radius: 8/16+rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h3{
+                font-size: 18/16+rem;
+                color: #333333;
+                text-align: center;
+                margin-top: 22/16+rem;
+            }
+            table{
+                width: 285/16+rem;
+                font-size: 13/16+rem;
+                color: #909399;
+                letter-spacing: 0;
+                text-align: center;
+                margin-top: 14/16+rem;
+                thead{
+                    background: #F5F7FA;
+                    line-height: 36/16+rem;
+                }
+                tbody{
+                    line-height: 36/16+rem;
+                }
+            }
+            button{
+                background: transparent;
+                border:0;
+                height: 57/16+rem;
+                width: 100%;
+                border-top: 1/16+rem solid #E5E5E5;
+                margin-top: 14/16+rem;
+                font-size: 18px;
+                color: #576B95;
+            }
+        }
+    }
+}

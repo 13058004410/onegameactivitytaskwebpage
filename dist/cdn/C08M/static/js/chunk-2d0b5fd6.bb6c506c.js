@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0b5fd6"],{"1af6":function(n,p,a){n.exports=a.p+"cdn/C08M/static/img/banner_PC.a249d009.jpg"}}]);

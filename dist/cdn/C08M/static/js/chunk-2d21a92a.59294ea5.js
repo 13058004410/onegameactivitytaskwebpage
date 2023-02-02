@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d21a92a"],{bba5:function(n,c,p){n.exports=p.p+"cdn/C08M/static/img/banner.167c581c.jpg"}}]);

@@ -1,0 +1,130 @@
+@import './normaliz.scss';
+@import './screen750.scss';
+html,body{
+    width: 100%;
+    height: 100%;
+    // background: url('../img/logOn/bj.png') no-repeat;
+    background-color: rgb(52, 53, 106);
+}
+.logOn{
+    @include full_fixed(750);
+    // background: #d9c4b1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .view{
+        flex: 1 1 0;
+        overflow: hidden;
+        position: relative;
+        .scroll{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            .content{
+                // padding-bottom: 3rem;
+            }
+        }
+    }
+    .top{
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .contentBox{
+        background: url('../img/logOn/bj.png') no-repeat;
+        background-size:cover;
+        background-position:bottom  center;
+        padding-top: 2.18rem;
+        h3{
+            font-size:0.875rem ;
+            color: #fff;
+            width: 85.3%;
+            margin: 0 auto;
+            
+            span{
+                color: #ab82ff;
+            }
+        }
+        .time{
+            margin-top:1.875rem ;
+            text-align: center;
+        }
+        .fs{
+            margin-top: 1.09375rem;
+            text-align: center;
+        }
+        .receive{
+            width: 33%;
+            height: auto;
+            margin: 0.5rem auto;
+            display: block;
+            img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        h6{
+            width: 100%;
+            margin: 2.18rem auto;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .rule{
+            width: 85%;
+            margin: 0 auto;
+            
+            li{
+                font-size: 0.875rem;
+                color: #fff;  
+                padding-bottom:1.875rem ;
+            }
+        }
+    }
+    @media only screen and (device-width:375px) and (device-height:812px) and (-webkit-device-pixel-ratio:3){
+        .contentBox{
+            height:69.5vh;
+        }
+    }
+}
+.alertBox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.5);
+    top:0;
+    .alert{
+        position: absolute;
+        height: 16rem;
+        width: 85%;
+        background: url(../img/firstSave/alert.png) no-repeat;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        margin: -8rem -40%;
+        h3{
+            font-size: 1rem;
+            color:rgb(183, 202, 235) ;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        a{
+            display: block;
+            position: absolute;
+            bottom: 1rem;
+            width: 60%;
+            height:2.8rem ;
+            background: rgb(17, 94, 136);
+            color: rgb(165, 202, 223);
+            border-radius: 0.5rem;
+            text-align: center;
+            left: 50%;
+            margin-left: -30%;
+            line-height: 2.8rem;
+        }
+    }
+}

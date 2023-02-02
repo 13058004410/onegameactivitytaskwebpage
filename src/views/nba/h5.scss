@@ -1,0 +1,585 @@
+.content {
+  background: #EFEAE1 url("../../assets/img/nba/bg.png") no-repeat;
+  background-size: 100%;
+  padding-top: (430/16) + rem;
+  padding-bottom: (47/16) + rem;
+}
+.guess-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    width: (289/16) + rem;
+    height: (18/16) + rem;
+    background: url("../../assets/img/nba/jcsj_tit.png") no-repeat;
+    background-size: 100%;
+  }
+  span {
+    font-family: PingFangSC-Regular;
+    font-size: (13/16) + rem;
+    color: #614516;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: (10/16) + rem;
+  }
+}
+.guess {
+  width: (342/16) + rem;
+  margin: auto;
+  margin-top: (28/16) + rem;
+  background-color: #F8F4EE;
+  border: (2/16) + rem solid #CBAF8D;
+  border-radius: (10/16) + rem;
+  font-family: PingFangSC-Semibold;
+  font-size: (16/16) + rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  font-weight: 600;
+  > .title {
+    display: flex;
+    position: relative;
+    height: (42/16) + rem;
+    > div {
+      // height: 42px;
+      // flex: 1;
+      width: 47%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // background: #0f0b0c;
+      position: absolute;
+
+      font-size: (16/16) + rem;
+      color: rgba(255, 255, 255, 0.3);
+      letter-spacing: 0;
+      color: #FFFFFF;
+      > span {
+        position: absolute;
+      }
+    }
+
+    > div:first-child {
+      border-radius: (8/16) + rem 0 0 0;
+      border-bottom: (42/16) + rem solid #C7A66F;
+      border-right: (24/16) + rem solid transparent;
+      > span {
+        top: (10/16) + rem;
+      }
+    }
+
+    > div:last-child {
+      border-radius: 0 (8/16) + rem 0 0;
+      border-top: (42/16) + rem solid #C7A66F;
+      border-left: (24/16) + rem solid transparent;
+      right: 0;
+      top: 0;
+      > span {
+        bottom: (10/16) + rem;
+      }
+    }
+
+    > div.active {
+      border-bottom-color: #F8F4EE;
+      border-top-color: #F8F4EE;
+      color: #D7A544 !important;
+    }
+    .left-icon:not(.active) {
+      left: (-2/16) + rem;
+      top: (-1/16) + rem;
+    }
+    .right-icon:not(.active) {
+      right: (-2/16) + rem;
+      top: (-1/16) + rem;
+    }
+  }
+  .score {
+    margin-top: -(1/16) + rem;
+    border-top: 0;
+    .count.usdt {
+      color: #00C696;
+    }
+
+    .count {
+      font-size: (15/16) + rem;
+      color: #AA651A;
+      letter-spacing: 0;
+      padding-top: (19/16) + rem;
+      margin-left: (16/16) + rem;
+    }
+
+    .login {
+      font-size: (15/16) + rem;
+      color: #CAC7C4;
+      letter-spacing: 0;
+      line-height: (21/16) + rem;
+      font-weight: 500;
+      i {
+        letter-spacing: 0;
+        line-height: (18/16) + rem;
+        color: #AA651A;
+        font-style: normal;
+        font-weight: 600;
+      }
+    }
+
+    .game {
+      display: flex;
+      justify-content: center;
+      padding-top: (20/16) + rem;
+      color: #fff;
+      text-align: center;
+
+      > div:not(.mide) {
+        width: (47/16) + rem;
+        font-size: (13/16) + rem;
+        letter-spacing: 0;
+
+        > div:last-child {
+          display: flex;
+          justify-content: center;
+          > p {
+            margin: (10/16) + rem 0;
+            white-space: nowrap;
+            color: #65676D;
+            letter-spacing: 0;
+            font-weight: 500;
+            font-size: (13/16) + rem;
+          }
+        }
+      }
+
+      .mide {
+        text-align: center;
+        width: (141/16) + rem;
+
+        > span {
+          font-size: (14/16) + rem;
+          letter-spacing: 0;
+          padding: 0 (6/16) + rem 0 (6/16) + rem;
+          color: #65676D;
+        }
+        > p {
+          font-size: (20/16) + rem;
+          color: #65676D;
+          letter-spacing: 0;
+          font-weight: 600;
+          margin-top: (18/16) + rem;
+        }
+      }
+    }
+    .inputs {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 (20/16) + rem;
+      > div {
+        display: flex;
+        font-size: (14/16) + rem;
+        color: #ffffff;
+        letter-spacing: 0;
+        text-align: center;
+        > span {
+          margin: 0 (10/16) + rem;
+        }
+        .van-cell {
+          width: (44/16) + rem;
+          height: (25/16) + rem;
+          background: rgba(178, 204, 229, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.7);
+          border-radius: (4/16) + rem;
+          padding: 0;
+          border-color: #EDD8BE;
+        }
+        .van-cell::after {
+          border: none;
+        }
+      }
+    }
+    .sub {
+      margin: (20/16) + rem;
+      font-size: (12/16) + rem;
+      color: #A99580;
+      letter-spacing: 0;
+      font-weight: 400;
+    }
+    .bet {
+      width: (117/16) + rem;
+      height: (37/16) + rem;
+      background: url("../../assets/img/nba/tjbf_btn.png") no-repeat;
+      background-size: 100%;
+      margin: auto;
+      margin-bottom: (20/16) + rem;
+    }
+  }
+  .quiz-list {
+    margin-top: -0.0625rem;
+    border-top: 0;
+    border-radius: 0 0 0.5rem 0.5rem;
+    overflow: hidden;
+    position: relative;
+
+    .down {
+      position: absolute;
+      bottom: 0;
+      margin: auto;
+    }
+    .van-list {
+      max-height: (376/16) + rem;
+      overflow-y: scroll;
+      min-height: (100/16) + rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .listBody {
+        width: 100%;
+      }
+    }
+    .row:not(:first-child) {
+      margin-top: (4/16) + rem;
+    }
+
+    .title {
+      height: (38/16) + rem;
+      background: #F9F5EE;
+      font-size: (13/16) + rem;
+      color: #605D58;
+      letter-spacing: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 (10/16) + rem;
+      .right {
+        display: flex;
+        align-items: center;
+        > div {
+          display: flex;
+          align-items: center;
+          > span {
+            color: #605D58;
+          }
+        }
+        > button {
+          font-size: (14/16) + rem;
+          color: #AA651A;
+          letter-spacing: 0;
+          font-weight: 600;
+          letter-spacing: 0;
+          background: transparent;
+          border: 0;
+          padding: 0;
+          margin-left: (11.3/16) + rem;
+        }
+      }
+    }
+    .quiz {
+      display: flex;
+      background: #FFFBF6;
+      align-items: center;
+      padding: (10/16) + rem (10/16) + rem;
+      box-sizing: border-box;
+      font-size: (14/16) + rem;
+      color: #605D58;
+      letter-spacing: 0;
+      font-weight: 400;
+      letter-spacing: 0;
+      .row {
+        flex: 1;
+        border: 1.5px solid #D0A881;
+        > div:not(:first-child) {
+          border-top: 1.5px solid #D0A881;
+        }
+        > div {
+          height: (30/16) + rem;
+          display: flex;
+          > div:not(:last-child) {
+            border-right: 1.5px solid #D0A881;
+          }
+          > div {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+        .quiz-title {
+          font-size: (14/16) + rem;
+          color: #605D58;
+          letter-spacing: 0;
+        }
+      }
+    }
+  }
+}
+.winn_list{
+  width: 343/16+rem;
+  height: 317/16+rem;
+  background: #F8F4EE;
+  border: 1/16+rem solid #CBAF8D;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: (20/16) + rem;
+  padding: 1/16+rem 11/16+rem 0 11/16+rem;
+  box-sizing: border-box;
+  text-align: center;
+  .winn_title {
+    width: (91/16) + rem;
+    height: (46/16) + rem;
+    background: url("../../assets/img/nba/zjmd_h5.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-bottom: (10/16) + rem;
+  }
+  .t_h{
+    background: #D0A881;
+    line-height: 30/16+rem;
+    display: flex;
+    font-size: 14/16+rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    div{
+      flex: 1;
+    }
+  }
+  .t_b{
+    font-size: 12/16+rem;
+    color: #63676C;
+    letter-spacing: 0;
+    line-height: 37.5/16+rem;
+    height:190/16+rem;
+    border: 1px solid #CBA275;
+    border-top:none;
+    overflow-y: scroll;
+    
+    >div{
+      display:flex;
+      border-bottom: 1px solid #CBA275;
+      >div:not(:last-child){
+        border-right: 1px solid #CBA275;
+      }
+      >div:first-child{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+      }
+      >div{
+        flex:1;
+      }
+      >div:nth-child(2){
+        line-height: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        >p:last-child{
+          font-size: 10/16+rem;
+          letter-spacing: 0;
+        }
+      }
+      >div:nth-child(3){
+        font-size: 12/16+rem;
+        letter-spacing: 0;
+      }
+    }
+  }
+  .empty{
+    height:190/16+rem;
+    border: 1px solid #CBA275;
+    border-top:none;
+  }
+  .down_icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22/16+rem;
+    >i:nth-child(1){
+      margin-top: 5px;
+      color: #CBA275 !important;
+    }
+    >i:nth-child(2){
+      margin-top: -15px;
+      color: #CBA275 !important;
+    }
+  }
+}
+.ac-content {
+  width: (343/16) + rem;
+  height: (211/16) + rem;
+  background: #F8F4EE;
+  border: (1/16) + rem solid #CBAF8D;
+  border-radius: (8/16) + rem;
+  margin: auto;
+  margin-top: (20/16) + rem;
+  .ac-title {
+    width: (91/16) + rem;
+    height: (46/16) + rem;
+    background: url("../../assets/img/nba/zjnr_h5.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: (10/16) + rem;
+    margin-bottom: (10/16) + rem;
+  }
+  .ac-word {
+    font-size: 14px;
+    color: #65676D;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 0 (10/16) + rem; 
+    >span.brown {
+      color: #AA651A;
+    }
+  } 
+}
+
+.ac-rule {
+  .rule-title {
+    width: (91/16) + rem;
+    height: (46/16) + rem;
+    background: url("../../assets/img/nba/zjgz_h5.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: (10/16) + rem;
+    margin-bottom: (16/16) + rem;
+  }
+  width: (343/16) + rem;
+  height: (686/16) + rem;
+  background: #F8F4EE;
+  border: (1/16) + rem solid #CBAF8D;
+  border-radius: (8/16) + rem;
+  margin: auto;
+  margin-top: (20/16) + rem;
+  padding: 0 (10/16) + rem;
+  box-sizing: border-box;
+  font-size: (14/16) + rem;
+  color: #65676D;
+  .brown {
+    color: #AA651A;
+  }
+  p {
+    margin-top: (-4/16) + rem;
+  }
+}
+
+.van-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay1 {
+  width: (335/16) + rem;
+  // height: (481/16) + rem;
+  background: #ffffff;
+  border-radius: (8/16) + rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: (30/16) + rem (20/16) + rem (20/16) + rem (20/16) + rem;
+    .t {
+      background: url("../../assets/img/nba/jcbf_tit_h5.png") no-repeat center;
+      background-size: contain;
+      width: (221/16) + rem;
+      height: (22/16) + rem;
+      margin-bottom: (18/16) + rem;
+    }
+    .txt {
+      font-size: (14/16) + rem;
+      color: #717171;
+      letter-spacing: 0;
+
+      > i {
+        color: #e1b056;
+        line-height: (20/16) + rem;
+        font-style: normal;
+      }
+    }
+    .sub {
+      font-size: (11/16) + rem;
+      color: rgba($color: #717171, $alpha: 0.51);
+      letter-spacing: 0;
+      margin: (5/16) + rem 0 (10/16) + rem 0;
+    }
+    .list {
+      // max-height: (283/16) + rem;
+      width: (295/16) + rem;
+      border-radius: (2/16) + rem;
+      overflow: hidden;
+      .list-t {
+        display: flex;
+        border-bottom: 1px solid #CBA275;
+        background: #D0A881;
+        color: #FFFFFF;
+        > div {
+          flex: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: (38/16) + rem;
+        }
+      }
+
+      > div {
+        font-size: (14/16) + rem;
+        color: #63676C;
+        letter-spacing: 0;
+      }
+      > .list-r {
+        max-height: (245/16) + rem;
+        overflow-y: scroll;
+        .row {
+          border-bottom: (1/16) + rem solid #CBA275;
+          border-right: (1/16) + rem solid #CBA275;
+        }
+        .row {
+          flex: 1;
+          display: flex;
+          height: (31/16) + rem;
+          > div:first-child {
+            border-right: (1/16) + rem solid #CBA275;
+            border-left: (1/16) + rem solid #CBA275;
+          }
+          > div {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  .close {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -59px;
+    width: 100%;
+  }
+  .foot {
+    height: (57/16) + rem;
+    display: flex;
+    justify-content: center;
+    font-size: (14/16) + rem;
+    > button:nth-child(1) {
+      width: (116/16) + rem;
+      height: (40/16) + rem;
+      border: (1/16) + rem solid #DADADA;
+      border-radius: (24/16) + rem;
+      color: #777778;
+      background-color: #fff;
+    }
+    > button:nth-child(2) {
+      width: (116/16) + rem;
+      height: (40/16) + rem;
+      background-image: linear-gradient(90deg, #D9B490 4%, #D0A881 94%);
+      border-radius: (24/16) + rem;
+      margin-left: (20/16) + rem;
+      border: (1/16) + rem solid #DADADA;
+      color: #ffffff;
+    }
+  }
+}

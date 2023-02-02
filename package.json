@@ -1,0 +1,77 @@
+{
+  "name": "vuelearning2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:dev": "cross-env NODE_ENV=development vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "plugin": "vue-cli-service inspect --plugin hmr",
+    "plugins": "vue-cli-service inspect --plugins",
+    "module": "vue-cli-service inspect --module"
+  },
+  "dependencies": {
+    "@oldeng/v-infinite-scroll": "0.0.5",
+    "axios": "^0.19.2",
+    "better-scroll": "^1.15.2",
+    "core-js": "^3.3.2",
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify-es": "^2.0.0",
+    "js-base64": "^2.5.2",
+    "jsencrypt": "^3.2.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "swiper": "^6.8.1",
+    "v-viewer": "^1.6.4",
+    "vant": "^2.10.14",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-clipboard2": "^0.3.1",
+    "vue-seamless-scroll": "^1.1.23"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-eslint": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "cross-env": "^7.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "js-md5": "^0.7.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.0",
+    "vue-ba": "^1.2.8",
+    "vue-router": "^3.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.1.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

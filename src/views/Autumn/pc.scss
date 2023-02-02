@@ -1,0 +1,150 @@
+$count: 99.9422423;
+body {
+    font-family: PingFangSC-Semibold;
+}
+table tr th, table tr td {
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+    border-color: #000;
+}
+.zhu {
+    font-size: 18/$count+rem !important;
+}
+.content {
+    padding-top: 675/$count+rem;
+    background:#FCBB71 url(../../assets/img/Autumn/bannerpc.jpg) no-repeat;
+    background-size: 100%;
+}
+.active_wrapper {
+    width: 1000/$count+rem;
+    margin: 0 auto;
+}
+.moonTitle {
+    margin-top: 20/$count+rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .leftIcon {
+        width: 311/$count+rem;
+        height: 32/$count+rem;
+        background-image: url(../../assets/img/Autumn/toplpc.png);
+        background-size: 100%;
+    }
+    .centerText {
+        height: 32/$count+rem;
+        font-family: PingFangSC-Semibold;
+        font-size: 30/$count+rem;
+        color: #BA2F1F;
+        letter-spacing: 0;
+        line-height: 32/$count+rem;
+        font-weight: 600;
+        text-align: center;
+        word-break: keep-all;
+    }
+    .rightIcon {
+        width: 311/$count+rem;
+        height: 32/$count+rem;
+        background-image: url(../../assets/img/Autumn/toprpc.png);
+        background-size: 100%;
+    }
+}
+.moonTime {
+    width: 352/$count+rem;
+    height: 32/$count+rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 20/$count+rem;
+    color: #BA2F1F;
+    letter-spacing: 0;
+    line-height: 32/$count+rem;
+    font-weight: 600;
+    margin: 0 auto;
+    margin-top: 13/$count+rem;
+    margin-bottom: 10/$count+rem;
+}
+.active_content {
+    width: 1000/$count+rem;
+    margin: 0 auto;
+    .active_title {
+        width: 100%;
+        height: 59/$count+rem;
+        background: #BA2F1F; 
+        margin: 12/$count+rem auto 17/$count+rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title_left {
+            width: 69/$count+rem;
+            height: 14/$count+rem;
+            background-image: url(../../assets/img/Autumn/bllpc.png);
+            background-size: 100%;
+        }
+        .title_center {
+            margin: 0 68/$count+rem;
+            font-family: PingFangSC-Semibold;
+            font-size: 20/$count+rem;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 32/$count+rem;
+            font-weight: 600;
+        }
+        .title_right {
+            width: 69/$count+rem;
+            height: 14/$count+rem;
+            background-image: url(../../assets/img/Autumn/blrpc.png);
+            background-size: 100%;
+        }
+    }
+    .active_word {
+        font-family: PingFangSC-Semibold;
+        font-size: 20/$count+rem;
+        color: #BA2F1F;
+        letter-spacing: 0;
+        line-height: 32/$count+rem;
+        font-weight: 600;
+        margin-bottom: 20/$count+rem;
+        margin-top: 15/$count+rem;
+    }
+    .active_table {
+        width: 100%;
+        border-collapse: collapse;
+        color: #fff;
+        thead {
+            background: #BA2F1F;
+        }
+        tr {
+            display: flex;
+            justify-content: center;
+            th {
+                padding: 16/$count+rem 0;
+                font-size: 20/$count+rem;
+                font-weight: 600; 
+            }
+            td {
+                font-weight: 600;
+                font-size: 16/$count+rem;
+                padding: 18/$count+rem 0;
+                background: #FD7304;
+            }
+            &:first-child {
+                td {
+                    font-size: 20/$count+rem; 
+                }
+            }
+        }
+    }
+    
+}
+.active_footer {
+    background: #BA2F1F;
+    font-family: PingFangSC-Regular;
+    font-size: 18/$count+rem;
+    color: #DADADA;
+    line-height: 36/$count+rem;
+    font-weight: 400;
+    .footer_content {
+        width: 1000/$count+rem;
+        margin: 0 auto;
+        padding: 36/$count+rem 0;
+    }
+}

@@ -1,0 +1,117 @@
+.dividend {
+    background: #F5F9FA url("../../assets/img/dividend/BG.png") no-repeat 0 0;
+    background-size: contain;
+    padding-top: (520/16) + rem;
+    .main-t {
+      background: url("../../assets/img/dividend/hdnr.png") no-repeat 0 0;
+      background-size: cover;
+      width: (115/16) + rem;
+      height: (25/16) + rem;
+      margin-left: (20/16) + rem;
+      margin-bottom: (12/16) + rem;
+    }
+    .title {
+      display: flex;
+      background: #7984a8;
+      height: (37/16) + rem;
+      text-align: center;
+      line-height: (37/16) + rem;
+      span {
+        flex: 1;
+        font-size: (12/16) + rem;
+        color: #ffffff;
+        letter-spacing: 0;
+      }
+    }
+    .text {
+      display: flex;
+      height: (37/16) + rem;
+      text-align: center;
+      line-height: (37/16) + rem;
+      border-bottom: 1px solid rgba(121, 132, 168, 0.46);
+      span {
+        flex: 1;
+        font-size: (12/16) + rem;
+        color: #7984a8;
+        letter-spacing: 0;
+      }
+    }
+  
+    .sub {
+      padding: 0 (20/16) + rem (40/16) + rem (20/16) + rem;
+    }
+  
+    .t2 {
+      background: url("../../assets/img/dividend/hdsj.png") no-repeat 0 0;
+      background-size: cover;
+      width: (133/16) + rem;
+      height: (25/16) + rem;
+      margin-top: (30/16) + rem;
+    }
+    .sub-t2 {
+      margin-top: (12/16) + rem;
+      font-size: (14/16) + rem;
+      color: #7984a8;
+      letter-spacing: 0;
+      span{
+          color: #d5af86;
+      }
+    }
+    .t3 {
+      background: url("../../assets/img/dividend/sqfs.png") no-repeat 0 0;
+      background-size: cover;
+      width: (117/16) + rem;
+      height: (25/16) + rem;
+      margin-top: (30/16) + rem;
+    }
+    .ripple {
+      text-align: center; 
+      margin-top: (20/16)+rem;
+  
+      > button {
+        width: (141/16) + rem;
+        height: (40/16) + rem;
+        border: none;
+        background: url("../../assets/img/dividend/lq_btn.png") no-repeat 0 0;
+        background-size: cover;
+      }
+    }
+    .t4 {
+      background: url("../../assets/img/dividend/hdgz.png") no-repeat 0 0;
+      background-size: cover;
+      width: (117/16) + rem;
+      height: (25/16) + rem;
+      margin-top: (30/16) + rem;
+    }
+  }
+  .alert{
+      position: absolute;
+      height: 16rem;
+      width: 85%;
+      background: url(../../assets/img/newUser/alert.png) no-repeat;
+      background-size: 100% 100%;
+      left: 50%;
+      top: 50%;
+      margin: -8rem -40%;
+      h4{
+          font-size: 1rem;
+          color:#000 ;
+          text-align: center;
+          margin-top: 5rem;
+      }
+      a{
+          display: block;
+          position: absolute;
+          bottom: 1rem;
+          width: 60%;
+          height:2.8rem ;
+          background: #000;
+          color: #fff;
+          border-radius: 0.5rem;
+          text-align: center;
+          left: 50%;
+          margin-left: -30%;
+          line-height: 2.8rem;
+      }
+  }
+  

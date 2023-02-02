@@ -1,0 +1,253 @@
+.content {
+    background: url("../../assets/img/nba/bg.png") no-repeat;
+    background-size: 100%;
+    padding-top: (300/16) + rem;
+    padding-bottom: (34/16)+rem;
+    background-color: #1e1d22;
+  }
+  .guess-time {
+    width: (345/16) + rem;
+    height: (44/16) + rem;
+    background: url("../../assets/img/nba/jcsj_bg.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    padding-top: (16/16) + rem;
+    box-sizing: border-box;
+  
+    transform: rotate(-1deg);
+    font-size: (14/16) + rem;
+    color: #f2d067;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .guess {
+    width: (342/16) + rem;
+    margin: auto;
+    margin-top: (28/16) + rem;
+    .title {
+      display: flex;
+      position: relative;
+      height: (42/16) + rem;
+      > div {
+        // height: 42px;
+        // flex: 1;
+        width: 47%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: #0f0b0c;
+        position: absolute;
+  
+        font-size: (16/16) + rem;
+        color: rgba(255, 255, 255, 0.3);
+        letter-spacing: 0;
+  
+        > span {
+          position: absolute;
+        }
+      }
+  
+      > div:first-child {
+        border-radius: (8/16) + rem 0 0 0;
+        border-bottom: (42/16) + rem solid #0f0b0c;
+        border-right: (24/16) + rem solid transparent;
+        > span {
+          top: (10/16) + rem;
+        }
+      }
+  
+      > div:last-child {
+        border-radius: 0 (8/16) + rem 0 0;
+        border-top: (42/16) + rem solid #0f0b0c;
+        border-left: (24/16) + rem solid transparent;
+        right: 0;
+        top: 0;
+        > span {
+          bottom: (10/16) + rem;
+        }
+      }
+  
+      > div.active {
+        border-bottom-color: #383838;
+        border-top-color: #383838;
+        color: #eee;
+      }
+    }
+    .score {
+      border: (2/16) + rem solid #50432b;
+      margin-top: -(1/16) + rem;
+      border-top: 0;
+      border-radius: 0 0 (8/16) + rem (8/16) + rem;
+      .count {
+        font-size: (15/16) + rem;
+        color: #f2d067;
+        letter-spacing: 0;
+        padding-top: (19/16) + rem;
+        margin-left: (16/16) + rem;
+      }
+      .time {
+        margin-top: (15/16) + rem;
+        text-align: center;
+        font-size: (14/16) + rem;
+        color: #ffffff;
+        letter-spacing: 0;
+      }
+      .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: (15/16) + rem;
+        .txt {
+          padding: 0;
+          width: (51/16) + rem;
+          height: (35/16) + rem;
+          opacity: 0.8;
+          background: rgba(255, 255, 255, 0.1);
+          color: #fff;
+          border: (1/16) + rem solid #ffffff;
+          border-radius: (4/16) + rem;
+        }
+        .txt:after {
+          border: none;
+        }
+        .img:first-child {
+          margin-right: (20/16) + rem;
+        }
+        .img:last-child {
+          margin-left: (20/16) + rem;
+        }
+        .vs {
+          font-size: (16/16) + rem;
+          color: #ffffff;
+          letter-spacing: 0;
+          padding: 0 (14/16) + rem;
+        }
+      }
+      .name {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        margin-top: (15/16) + rem;
+        font-size: (13/16) + rem;
+        color: #ffffff;
+        letter-spacing: 0;
+        > div {
+          width: (170/16) + rem;
+        }
+      }
+      .bet {
+        width: (117/16) + rem;
+        height: (37/16) + rem;
+        background: url("../../assets/img/nba/tjbf_btn.png") no-repeat;
+        background-size: 100%;
+        margin: auto;
+        margin-top: (8/16) + rem;
+        margin-bottom: (20/16) + rem;
+      }
+    }
+    .quiz-list {
+      margin-top: -(1/16) + rem;
+      .row:not(:first-child) {
+        margin-top: (3/16) + rem;
+      }
+      .title {
+        height: (38/16) + rem;
+        background: #383838;
+        font-size: (13/16) + rem;
+        color: #eef2ff;
+        letter-spacing: 0;
+        display: flex;
+        align-items: center;
+        padding: 0 (15/16) + rem;
+      }
+      .quiz {
+        display: flex;
+        background: #323232;
+        align-items: center;
+        padding: (10/16) + rem (15/16) + rem;
+        box-sizing: border-box;
+  
+        font-size: (14/16) + rem;
+        color: #ffffff;
+        letter-spacing: 0;
+        > div {
+          flex: 1;
+        }
+        .vs {
+          flex: none;
+          text-align: center;
+          > p {
+            font-size: (12/16) + rem;
+            color: #ffffff;
+            letter-spacing: 0;
+            margin-bottom: (5/16) + rem;
+          }
+          > div {
+            > span {
+              font-size: (14/16) + rem;
+              letter-spacing: 0;
+              color: #f2d067;
+            }
+            > span:nth-child(2) {
+              color: #ffffff;
+              margin: 0 (10/16) + rem;
+            }
+          }
+        }
+        > div:last-child {
+          text-align: right;
+        }
+      }
+    }
+  }
+  
+  .ac-content {
+    background: url("../../assets/img/nba/hdnr_bg.png") no-repeat;
+    background-size: 100%;
+    width: (335/16) + rem;
+    height: (205/16) + rem;
+    margin: auto;
+    margin-top: (20/16) + rem;
+    padding-top: (75/16) + rem;
+    box-sizing: border-box;
+  
+    > div {
+      width: (305/16) + rem;
+      margin: auto;
+      font-size: (14/16) + rem;
+      color: #eff2fe;
+      letter-spacing: 0;
+      > span {
+        font-size: (14/16) + rem;
+        color: #e1bc4b;
+        letter-spacing: 0;
+        line-height: (20/16) + rem;
+      }
+    }
+  }
+  
+  .ac-rule {
+    background: url("../../assets/img/nba/hdgz_bg.png") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: (20/16) + rem;
+    width: (335/16) + rem;
+    height: (519/16) + rem;
+    padding-top: (75/16) + rem;
+    box-sizing: border-box;
+    > div {
+      width: (305/16) + rem;
+      margin: auto;
+      font-size: (14/16) + rem;
+      color: #eff2fe;
+      letter-spacing: 0;
+      line-height: (18/16) + rem;
+      span {
+        font-size: (14/16) + rem;
+        color: #e1bc4b;
+        letter-spacing: 0;
+        line-height: (20/16) + rem;
+      }
+    }
+  }
+  

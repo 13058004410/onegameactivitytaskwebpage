@@ -1,0 +1,154 @@
+$count: 99.9422423;
+.w1200{
+  width: 1200/$count+rem;
+  margin: auto;
+}
+.mgt42{
+  margin-top: -62/$count+rem;
+}
+.mgt18{
+  margin-top: 18/$count+rem;
+}
+.mgt24{
+  margin-top: 24/$count+rem;
+}
+.mgt20{
+  margin-top: 20/$count+rem;
+}
+.mgt16{
+  margin-top: 16/$count+rem;
+}
+.padb44{
+  padding-bottom: 44/$count+rem;
+}
+.padt10{
+  padding-top: 10/$count+rem;
+}
+.gray1{
+  background-color: #ebebeb;
+}
+.padb50{
+  padding-bottom: 50/$count+rem;
+}
+.padb62{
+  padding-bottom: 62/$count+rem;
+}
+.padt20{
+  padding-top: 20/$count+rem;
+}
+.padt24{
+  padding-top: 24/$count+rem;
+}
+.gray{
+  color: #909399 !important;
+}
+.container{
+  background: url("../../assets/img/msi/pc_bg.jpg") no-repeat;
+  background-size: 100% auto;
+  padding-top: 895 / $count + rem;
+}
+.img1{
+  width: 1200/$count+rem;
+  height: 160/$count+rem;
+}
+.img2{
+  width: 1200/$count+rem;
+  height: 300/$count+rem;
+}
+.img3{
+  width: 1200/$count+rem;
+  height: 100/$count+rem;
+}
+.img4{
+  width: 1200/$count+rem;
+  height: 350/$count+rem;
+}
+.center{
+  text-align: center;
+}
+.but{
+  display: flex;
+  justify-content: center;
+}
+.but img{
+  width: 235/$count+rem;
+  height: 56/$count+rem;
+  pointer-events: auto;
+}
+.start-time{
+  font-family: PingFangSC-Semibold;
+  font-size: 24/$count+rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 39/$count+rem;
+}
+.title1{
+  width: 219/$count+rem;
+  height: 98/$count+rem;
+}
+.title2{
+  font-family: SourceHanSansCN-Bold;
+  font-size: 42/$count+rem;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: -58/$count+rem;
+}
+.title5{
+  text-align: center;
+  font-family: SourceHanSansCN-Bold;
+  font-size: 42/$count+rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  padding-top: 50/$count+rem;
+  padding-bottom: 40/$count+rem;
+}
+.sub1{
+  font-family: PingFangSC-Regular;
+  font-size: 20/$count+rem;
+  color: #FFFFFF;
+  line-height: 36/$count+rem;
+  text-align: left;
+}
+.sub2{
+  font-family: PingFangSC-Regular;
+  font-size: 18/$count+rem;
+  color: #909399;
+  line-height: 36/$count+rem;
+  text-align: left;
+}
+.sub3{
+  font-family: PingFangSC-Regular;
+  font-size: 20/$count+rem;
+  color: #303133;
+  line-height: 36/$count+rem;
+  text-align: left;
+}
+.sub4{
+  font-family: PingFangSC-Regular;
+  font-size: 18/$count+rem;
+  color: #606266;
+  line-height: 36/$count+rem;
+  text-align: left;
+}
+.line{
+  color: #F7B500;
+  border-bottom: 1/$count+rem solid #F7B500;
+  display: inline-block;
+  margin-bottom: 8/$count+rem;
+}
+.black{
+  background-color: #212121;
+}
+.black2{
+  background-color: #252525;
+}
+.green{
+  color: #6DD400;
+}
+.white-f{
+  color: #fff;
+}
+.white{
+  background-color: #f2f2f2;
+}

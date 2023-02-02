@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d2138ac"],{acb6:function(n,u,c){"use strict";c.r(u);var e=function(){var n=this,u=n._self._c;return u("router-view")},t=[],r=c("2877"),a={},l=Object(r["a"])(a,e,t,!1,null,null,null);u["default"]=l.exports}}]);

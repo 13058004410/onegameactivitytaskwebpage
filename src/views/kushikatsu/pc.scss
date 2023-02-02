@@ -1,0 +1,67 @@
+$count: 89.9422423;
+* {
+  box-sizing: border-box;
+}
+.bg {
+    background: url("../../assets/img/kushikatsu/pc/BG_PC.jpg") no-repeat;
+    background-size: cover ;
+    overflow: hidden;
+    padding-bottom: 50 / $count + rem;
+  .activict {
+    width: 1300 / $count + rem;
+    height: 1035 / $count + rem;
+    background: #1F1B1B;
+    border: 2 / $count + rem solid #5F4C2D;
+    border-radius: 8 / $count + rem;
+    margin: auto;
+    margin-top: 660 / $count + rem ;
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    padding:  0 2.8%;
+    font-family: PingFangSC-Regular;
+    font-size: 20 / $count + rem;
+    color: #FFFFFF;
+    line-height: 36 / $count + rem;
+    font-weight: 400;
+  }
+  .time {
+    font-family: PingFangSC-Semibold;
+    font-size: 24 / $count + rem;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 39 / $count + rem;
+    font-weight: 600;
+   
+  }
+  span {
+    color: #E1AE4E;
+  }
+  .info {
+    width: 900 / $count + rem;
+    height: 108 / $count + rem;
+    margin:  2% auto;
+    background-color: red;
+   img {
+    width: 100%;
+    height: 100%;
+    
+   }
+  }
+  .service-btn {
+    width: 196 / $count + rem;
+    height: 50 / $count + rem;
+    background: url("../../assets/img/kushikatsu/pc/btn_pc.png") no-repeat;
+    background-size: cover;
+    margin:  0 auto;
+  }
+}
+.activic-title {
+  width: 460 / $count + rem;
+  height: 90 / $count + rem;
+  margin: 4% auto 2%;
+}
+
+
+

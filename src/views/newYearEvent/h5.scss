@@ -1,0 +1,91 @@
+*{
+  box-sizing:border-box;
+}
+.container{
+  background: url("../../assets/img/newYearEvent/h5_bg.jpg") no-repeat;
+  background-size:100%;
+  background-color: #fdebd2;
+  padding: 0 20/16+rem;
+  padding-top:239/16 + rem;
+  padding-bottom:40/16 + rem;
+}
+.start_t{
+  font-size: 16/16+rem;
+  color: #4C2323;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.sub{
+  font-size: 14/16+rem;
+  color: #754C42;
+  line-height: 24/16+rem;
+  margin-top: 15/16+rem;
+}
+.ljlq{
+  text-align: center;
+  button{
+    margin-top: 20/16+rem;
+    width: 202/16+rem;
+    height: 44/16+rem;
+    border:none;
+    background-color: transparent;
+    background: url("../../assets/img/newYearEvent/btn_lq.png") no-repeat;
+    background-size:100%;
+
+    font-size: 18/16+rem;
+    color: #FFFFFF;
+  }
+}
+.table{
+  margin-top:32/16+rem;
+  >div{
+    display:flex;
+    line-height: 50/16+rem;
+    text-align:center;
+    background: #F3C8A0;
+    font-size: 15/16+rem;
+    color: #754C42;
+    >div{
+      flex:1;
+    }
+  }
+  .t_h{
+    border-bottom:2/16+rem solid #DCAF84;
+  }
+  .t_b{
+    flex-direction: column;
+    >div{
+      display:flex;
+      >div{
+        flex:1;
+      }
+    }
+    >div:nth-child(even){
+      background: #F9D1AB;
+    }
+  }
+}
+.hdgz{
+  font-size: 24/16+rem;
+  color: #4C2323;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top:30/16+rem;
+}
+.hdgz_b{
+  margin-top:20/16+rem;
+  >div{
+    display:flex;
+    font-size: 15/16+rem;
+    color: #754C42;
+    line-height: 32/16+rem;
+    >span{
+      margin-right: 14/16+rem;
+      font-weight: 500;
+    }
+  }
+  >div:not(:last-child){
+    margin-bottom: 20/16+rem;
+  }
+}

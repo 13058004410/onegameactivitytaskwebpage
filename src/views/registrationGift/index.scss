@@ -1,0 +1,86 @@
+@import '../../assets/css/normaliz.scss';
+@import '../../assets/css/media.scss';
+
+.app-wrapper {
+  color: #fff;
+}
+.app-bg.app-img {
+  width: 100%;
+  background-color: #000c6b;
+  img {
+    width: 100%;
+  }
+}
+.page-title {
+  padding: 0 40px;
+  width: calc(100% - 80px);
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  &.page-title1 {
+    margin-top: 70%;
+  }
+  &.page-title2 {
+    img {
+      width: 50%;
+    }
+  }
+}
+.box-time {
+  margin: 4% auto 8%;
+  text-align: center;
+  font-size: 16px;
+}
+.icon-point {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url('../../assets/img/registrationGift/icon-point1.png') no-repeat
+    center center;
+  background-size: contain;
+  &.icon-point2 {
+    background: url('../../assets/img/registrationGift/icon-point2.png')
+      no-repeat center center;
+    background-size: contain;
+  }
+  &.icon-point3 {
+    background: url('../../assets/img/registrationGift/icon-point3.png')
+      no-repeat center center;
+    background-size: contain;
+  }
+  &.icon-point4 {
+    background: url('../../assets/img/registrationGift/icon-point4.png')
+      no-repeat center center;
+    background-size: contain;
+  }
+  &.icon-point5 {
+    background: url('../../assets/img/registrationGift/icon-point5.png')
+      no-repeat center center;
+    background-size: contain;
+  }
+}
+.box-content {
+  padding: 0 10%;
+  font-size: 16px;
+  ul {
+    margin-top: 6%;
+    li {
+      margin-top: 3%;
+      padding-left: 24px;
+      position: relative;
+      .icon-point {
+        position: absolute;
+        left: 0;
+        top: 3px;
+      }
+      div {
+        line-height: 22px;
+        .txt-yellow {
+          color: #ffd400;
+        }
+      }
+    }
+  }
+}

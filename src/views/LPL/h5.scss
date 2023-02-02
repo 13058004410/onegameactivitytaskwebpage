@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  background: url("../../assets/img/LPL/h5/bg-h5.jpg") no-repeat;
+  background-size: 100% 100%;
+  padding: 380/16 + rem 20/16 + rem 40/16 + rem 20/16 + rem;
+}
+
+.title_1 {
+  background: url("../../assets/img/LPL/h5/hdsj-h5.png") no-repeat;
+  background-size: 100%;
+  width: 149/16 + rem;
+  height: 22/16 + rem;
+  margin: auto;
+}
+
+.title_t_1 {
+  height: 20/16 + rem;
+  font-family: PingFangSC-Medium;
+  font-size: 14/16 + rem;
+  color: #d8c087;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-top: 12/16 + rem;
+  text-align: center;
+}
+.title_12 {
+  background: url("../../assets/img/LPL/h5/hdtf-h5\ .png") no-repeat;
+  background-size: 100%;
+  width: 149/16 + rem;
+  height: 22/16 + rem;
+  margin: auto;
+  margin-top: 30/16 + rem;
+}
+
+.title_t_12 {
+  height: 20/16 + rem;
+  font-family: PingFangSC-Medium;
+  font-size: 14/16 + rem;
+  color: #d8c087;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-top: 12/16 + rem;
+  text-align: center;
+}
+
+.title_2 {
+  background: url("../../assets/img/LPL/h5/hdnr-h5\ .png") no-repeat;
+  background-size: 100%;
+  width: 149/16 + rem;
+  height: 22/16 + rem;
+  margin: auto;
+  margin-top: 30/16 + rem;
+}
+
+.title_tab {
+  background: url("../../assets/img/LPL/h5/biaoge1-h5.png") no-repeat;
+  background-size: 100%;
+  width: 335/16 + rem;
+  height: 202/16 + rem;
+  margin: auto;
+  margin-top: 10/16 + rem;
+}
+.title_tab2 {
+  background: url("../../assets/img/LPL/h5/biaoge2-h5.png") no-repeat;
+  background-size: 100%;
+  width: 335/16 + rem;
+  height: 202/16 + rem;
+  margin: auto;
+  margin-top: 10/16 + rem;
+}
+.title_tab3 {
+  background: url("../../assets/img/LPL/h5/biaoge3-h5.png") no-repeat;
+  background-size: 100%;
+  width: 335/16 + rem;
+  height: 260/16 + rem;
+  margin: auto;
+  margin-top: 10/16 + rem;
+}
+.btn{
+  width: 111/16+rem;
+  height: 40/16+rem;
+  margin: 10/16+rem auto 32/16+rem auto;
+  cursor: pointer;
+  img{
+      width: 100%;
+      display: block;
+  }
+}
+.btn2{margin: 20/16+rem auto 32/16+rem auto;}
+.btn3{margin: 20/16+rem auto 32/16+rem auto;}
+.title_sub {
+  display: flex;
+  margin-top: 12/16 + rem;
+  // margin-bottom: 10/16 + rem;
+  .icon {
+    width: 14/16 + rem;
+    height: 22/16 + rem;
+    font-family: AppleSDGothicNeo-Medium;
+    font-size: 16/16 + rem;
+    color: #d8c087;
+    letter-spacing: 0;
+    line-height: 22/16 + rem;
+    font-weight: 500;
+    margin-right: 6/16 + rem;
+  }
+  .icon_t {
+    height: 22/16 + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: 16/16 + rem;
+    color: #d8c087;
+    letter-spacing: 0;
+    line-height: 22/16 + rem;
+    font-weight: 600;
+  }
+}
+.table {
+  width: 335/16 + rem;
+  border: 1/16 + rem solid #937b4e;
+  border-radius: 4/16 + rem;
+  margin: auto;
+  overflow: hidden;
+  > div {
+    display: flex;
+    line-height: 37/16 + rem;
+    text-align: center;
+    span{
+      color: #DCB468;
+    }
+    > div:nth-child(1) {
+      width: 78/16 + rem;
+      font-family: PingFangSC-Semibold;
+      font-size: 12/16 + rem;
+      color: #ffffff;
+      letter-spacing: 0;
+      font-weight: 600;
+      background: #959ebc;
+      border-right: 1/16 + rem solid #bcc3d5;
+    }
+    > div:nth-child(2) {
+      background: #6a738f;
+      flex: 1;
+
+      font-family: PingFangSC-Semibold;
+      font-size: 12/16 + rem;
+      color: #ffffff;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+  }
+  > div:not(:last-child) {
+    border-bottom: 1/16 + rem solid #bcc3d5;
+  }
+}
+
+.title_3 {
+  background: url("../../assets/img/LPL/h5/hdgz-h5.png") no-repeat;
+  background-size: 100%;
+  width: 149/16 + rem;
+  height: 22/16 + rem;
+  margin: auto;
+  margin-top: 30/16+rem;
+  margin-bottom: 12/16+rem;
+ 
+}
+
+.sub {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #9b9a94;
+  letter-spacing: 0;
+  font-weight: 500;
+  // margin-top: 5/16+rem;
+  span{color: #937b4e;}
+  .play{color:#d8c087;}
+}
+.tops{margin-top: 10/16+rem;}
+.sub2 {
+  font-family: PingFangSC-Medium;
+  font-size: 14px;
+  color: #9b9a94;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 500;
+  span {
+    color: #937b4e;
+  }
+}

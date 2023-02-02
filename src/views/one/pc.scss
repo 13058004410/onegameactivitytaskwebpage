@@ -1,0 +1,109 @@
+$count: 99.9422423;
+.container {
+  background: url("../../assets/img/one/BG_PC.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 100 / $count + rem;
+  padding-top: 660 / $count + rem;
+}
+.box {
+  background: url("../../assets/img/one/hdnr_bg_pc.png") no-repeat;
+  background-size: cover;
+  width: 1300 / $count + rem;
+  height: 2320 / $count + rem;
+  margin: auto;
+  text-align: center;
+  padding: 60 / $count + rem 90 / $count + rem;
+  box-sizing: border-box;
+}
+.bg-t {
+  width: 194 / $count + rem;
+  height: 100 / $count + rem;
+}
+table {
+  border-style:hidden;
+  border-radius: 12 / $count + rem;
+  overflow: hidden;
+  box-shadow: 0 0 0 1/$count + rem #7984a8;
+  width: 100%;
+  thead {
+    background: #7984a8;
+    td {
+      color: #fff;
+      font-family: PingFangSC-Semibold;
+      font-size: 20 / $count + rem;
+      color: #ffffff;
+      letter-spacing: 0;
+      font-weight: 600;
+    }
+  }
+  tbody {
+    td {
+      font-family: PingFangSC-Medium;
+      font-size: 20 / $count + rem;
+      color: #63676c;
+      letter-spacing: 1 / $count + rem;
+      font-weight: 500;
+    }
+  }
+  td {
+    text-align: center;
+    vertical-align: middle;
+    border: 1 / $count + rem solid #7984a8;
+    height: 69 / $count + rem;
+  }
+}
+.txt-1 {
+  font-family: PingFangSC-Medium;
+  font-size: 28 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  text-align: left;
+}
+.txt-2 {
+  font-family: PingFangSC-Medium;
+  font-size: 24 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  line-height: 36 / $count + rem;
+  font-weight: 500;
+  text-align: left;
+}
+.txt-3 {
+  font-family: PingFangSC-Medium;
+  font-size: 20 / $count + rem;
+  color: #444b52;
+  letter-spacing: 1 / $count + rem;
+  font-weight: 500;
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.mgt20 {
+  margin-top: 20 / $count + rem;
+}
+.mgt30 {
+  margin-top: 20 / $count + rem;
+}
+.mgt60 {
+  margin-top: 50 / $count + rem;
+}
+.jump {
+  button {
+    width: 216/$count + rem;
+    height: 64/$count + rem;
+    background: url("../../assets/img/one/lq_btn_pc.png") no-repeat;
+    background-size: contain;
+    border: none;
+  }
+}
+
+.line24{
+  line-height: 24/$count + rem;
+}
+
+.y{
+  color: #F16A00;
+}

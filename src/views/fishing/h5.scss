@@ -1,0 +1,99 @@
+.box {
+  margin-top: -12/16+rem;
+  padding: 0 15/16+rem 50/16+rem 15/16+rem;
+}
+.mgt60 {
+  margin-top: 60/16+rem;
+}
+.mgt40 {
+  margin-top: 40/16+rem;
+}
+.mgt20 {
+  margin-top: 20/16+rem;
+}
+.mgt14 {
+  margin-top: 14/16+rem;
+}
+.mgt10 {
+  margin-top: 10/16+rem;
+}
+.mgt6 {
+  margin-top: 6/16+rem;
+}
+.txt1 {
+  font-family: PingFangSC-Regular;
+  font-size: 13/16+rem;
+  color: #98a9d6;
+  line-height: 24/16+rem;
+}
+.txt2 {
+  font-family: PingFangSC-Regular;
+  font-size: 13/16+rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 24/16+rem;
+}
+.txt3 {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 18/16+rem;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+.bg {
+  height: 400/16+rem;
+  background: url("../../assets/img/fishing/h5_bg.jpg") no-repeat;
+  background-size: cover;
+}
+.jump {
+  text-align: center;
+
+  button {
+    width: 165/16+rem;
+    height: 40/16+rem;
+    background: url("../../assets/img/fishing/h5_btn.png") no-repeat;
+    background-size: cover;
+    border: none;
+    margin-top: 227/16+rem;
+  }
+}
+.time {
+  font-family: PingFangSC-Semibold;
+  font-size: 16/16+rem;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 24/16+rem;
+  margin-top: 44/16+rem;
+}
+.title {
+  font-family: SourceHanSansCN-Bold;
+  font-size: 18/16+rem;
+  color: #f7ea00;
+  letter-spacing: 0;
+  text-align: center;
+}
+table {
+  width: 100%;
+  td {
+    text-align: center;
+    vertical-align: middle;
+    height: 40/16+rem;
+  }
+  thead {
+    background: #004a96;
+    font-family: PingFangSC-Semibold;
+    font-size: 13/16+rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  tbody {
+    background: #0054a8;
+    opacity: 0.75;
+    font-family: PingFangSC-Regular;
+    font-size: 12/16+rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 16/16+rem;
+  }
+}

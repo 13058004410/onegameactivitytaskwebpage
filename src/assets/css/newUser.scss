@@ -1,0 +1,132 @@
+@import './normaliz.scss';
+@import './screen750.scss';
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.newUser{
+    @include full_fixed(750);
+    // background: #d9c4b1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .view{
+        background: #efe8e0;
+        flex: 1 1 0;
+        overflow: hidden;
+        position: relative;
+        .scroll{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+    .top{
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .main{
+        padding-bottom: 50px;
+       .main-content {
+        width: 335px;
+        height: 1088px;
+        background: #F3EEE9;
+        border: 1px solid #DCC4AC;
+        border-radius: 4px;
+        margin: 20px auto;
+        .gift1 {
+            width: 182px;
+            height: 30px;
+            background: url('../img/newUser/lby_tit.png') no-repeat;
+            background-size: cover;
+            margin: 20px auto 10px;
+        }
+        .gift1-info {
+            width: 280px;
+            margin: 0 auto;
+            font-size: 14px;
+            color: #65676D;
+            line-height: 20px;
+            // font-weight: 600;
+            span {
+               color: #BD7D2F ;
+            }
+        }
+        .ripple {
+            width: 163px;
+            height: 38px;
+            background: url('../img/newUser/cz_btn_h5.png') no-repeat;
+            background-size: cover;
+            margin: 20px auto;
+        }
+        .ripplelq {
+            background: url('../img/newUser/lq_btn_h5.png') no-repeat;
+            background-size: cover;
+        }
+        .gift2 {
+            background: url('../img/newUser/lb2_tit.png') no-repeat;
+            background-size: cover;
+            margin-top: 30px;
+        }
+        .rulue {
+            background: url('../img/newUser/hdsm_tit.png') no-repeat;
+            background-size: cover;
+        }
+        .rulue-info {
+            width: 295px;
+            height: 610px;
+            margin: 15px auto;
+            p {
+            font-size: 14px;
+            color: #65676D;
+            margin-top: 15px;
+            line-height: 20px;
+            font-family: PingFangSC-Medium;
+            }
+            span {
+                color: #BD7D2F ;
+             }
+        }
+       }
+    }
+}
+.alertBox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.5);
+    top:0;
+    .alert{
+        position: absolute;
+        height: 16rem;
+        width: 85%;
+        background: url(../img/newUser/alert.png) no-repeat;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        margin: -8rem -40%;
+        h3{
+            font-size: 1rem;
+            color:#000 ;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        a{
+            display: block;
+            position: absolute;
+            bottom: 1rem;
+            width: 60%;
+            height:2.8rem ;
+            background: #000;
+            color: #fff;
+            border-radius: 0.5rem;
+            text-align: center;
+            left: 50%;
+            margin-left: -30%;
+            line-height: 2.8rem;
+        }
+    }
+}

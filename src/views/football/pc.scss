@@ -1,0 +1,241 @@
+
+.app-view {
+    min-width: 1300px;
+    // color: #fff;
+    padding-bottom: 80px;
+    background-color: #e8f2fc;
+    img {
+      width: 100%;
+    }
+  }
+  .box-content {
+    width: 1300px;
+    // height: 1888px;
+    background: url('../../assets/img/football/pc/hdnr_bg_pc.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+  }
+  .box-info {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    .box-title {
+    width: 405.37px;
+    height: 67px;
+    background: url('../../assets/img/football/pc/pchdnr.png') no-repeat;
+    background-size: cover;
+    margin: 0 auto 20px;
+    }
+    .box-title-info {
+      padding: 20px 0px 30px 0px;
+      font-size: 20px;
+      letter-spacing: 1;
+      color: #444B52;
+      font-family: PingFangSC-Medium;
+      line-height: 32px;
+
+    }
+    .box-title2 {
+      width: 415px;
+      height: 67px;
+      background: url('../../assets/img/football/pc/pchDZDSS.png') no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      }
+    .btn-sure {
+      height: 59px;
+      font-size: 16px;
+      background: #00BA60;
+      line-height: 59px;
+      text-align: center;
+      font-weight: 600;
+      margin: 25px 0;
+    }
+    .box-game {
+      width: 765px;
+      height: 347px;
+      opacity: 0.71;
+      background: url('../../assets/img/football/pc/hdnr_bg_pcs.png') no-repeat;
+      background-size: 100% 100%;
+      margin: 20px auto;
+      .game-time {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        color: #7B86A9 ;
+        letter-spacing: 0;
+        text-align: center;
+        padding: 15px;
+        vertical-align: middle;
+        :first-child {
+          width: 69px;
+          height: 14px;
+          background: url('../../assets/img/football/pc/pcxx.png') no-repeat;
+          background-size: cover;
+          margin: 5px 5px 0px 0px;
+        }
+        :last-child {
+          width: 69px;
+          height: 14px;
+          background: url('../../assets/img/football/pc/pcxx.png') no-repeat;
+          background-size: cover;
+          margin-top: 5px;
+        }
+        p {
+          margin-right: 10px;
+        }
+      }
+      .game-team {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        color: #7B86A9 ;
+        text-align: center;
+        .game-team-item {
+          margin-right: -18px;
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 148px;
+            height: 170px;
+            margin-bottom: 10px;
+            background: url("../../assets/img/football/pc/dppc.png") no-repeat;
+            background-size: 100% 100%;
+            img {
+              width: auto;
+              height: auto;
+              max-width:60%;
+              max-height: 60%;
+            }
+          }
+        }
+        .game-team-item1 {
+          margin-left: -18px;
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 148px;
+            height: 170px;
+            margin-bottom: 10px;
+            background: url("../../assets/img/football/pc/dppc.png") no-repeat;
+            background-size: 100% 100%;
+            img {
+              width: auto;
+              height: auto;
+              max-width:60%;
+              max-height: 60%;
+            }
+          }
+        }
+        .game-team-middle {
+          height: 120px;
+          margin-top: 60px;
+          z-index: -1;
+          > p {
+            margin-top: 5px;
+          }
+          > p:first-child {
+            font-size: 18px;
+            font-weight: 600;
+          }
+          > p:nth-child(2) {
+            font-size: 16px;
+            color: #FFFFFF;
+            background: #7B86A9;
+            width: 250px;
+            height: 37px;
+            line-height: 37px;
+          }
+          > p:nth-child(3) {
+            font-size: 30px;
+            font-weight: 600;
+          }
+        }
+      }
+ 
+    }
+    .no-data {
+      width: 765px;
+      height: 433px;
+      opacity: 0.71;
+      background: url('../../assets/img/football/pc/pcqsbg.png') no-repeat;
+      background-size: cover;
+      margin: 50px auto;
+      img {
+        display: block;
+        width: 268px;
+        height: 206px;
+        margin: 0 auto;
+       padding-top: 100px;
+        
+      }
+    }
+    .box-table {
+       // width: 100%;
+       // height: 188/16 + rem;
+       color:  #7B86A9;
+       th,td {
+           border: 1px solid #000000;
+           font-size: 16px;
+       }
+       td {
+          width: 250px;
+          height: 59px;
+          text-align: center;
+       }
+       th {
+            width:98px;
+            height: 59px;
+            background-color: #7B86A9 ;
+            color: #FFFFFF;
+       }
+   } 
+   .btn-kf {
+     width: 377px;
+     height: 64px;
+     margin: 50px  auto 30px;
+     background: url("../../assets/img/football/pc/lq_btn_pc.png") no-repeat;
+     background-size: cover;
+   }
+   .box-title3 {
+    width: 350px;
+    height: 67px;
+    background: url('../../assets/img/football/pc/pchdgz.png') no-repeat;
+    background-size: cover;
+    margin: 0 auto ;
+   }
+   .box-example {
+    height: 73px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+  }
+    .box-cont {
+        height: 475px;
+        margin: 0 auto;
+        padding: 30px 0;
+        p {
+          font-size: 20px;
+          color: #444B52;
+          line-height: 36px;
+          margin-top: 10px;
+        }
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,100 @@
+$count: 59.9422423;
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: url("../../assets/img/everyDayOne/pc/BG.png") no-repeat;
+  background-size: cover;
+  padding-top: 350 / $count + rem;
+  padding-bottom: 50 / $count + rem;
+}
+
+.tit_1 {
+  width: 97 / $count + rem;
+}
+.mgt15{
+  margin-top: 15 / $count + rem !important;
+}
+.mgt10{
+  margin-top: 10 / $count + rem !important;
+}
+.content_box {
+  background: url("../../assets/img/everyDayOne/pc/lqjl_bg.png") no-repeat;
+  background-size: cover;
+  width: 650 / $count + rem;
+  height: 714 / $count + rem;
+  margin: auto;
+  text-align: center;
+  padding-top: 30.5 / $count + rem;
+}
+.start_t {
+  font-size: 16 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+}
+.table {
+  width: 500 / $count + rem;
+  margin: auto;
+  > div {
+    display: flex;
+    line-height: 34 / $count + rem;
+    > div {
+      flex: 1;
+    }
+  }
+  .t_h {
+    background: #cfb9a3;
+    border: 1px solid #d4bfa9;
+    border-radius: 6 / $count + rem 6 / $count + rem 0 0;
+
+    font-size: 12 / $count + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  .t_b {
+    background: #f6f3ef;
+    border: 1px solid #d4bfa9;
+    border-radius: 0 0 6 / $count + rem 6 / $count + rem;
+
+    font-size: 12 / $count + rem;
+    color: #63676c;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
+.hdnr_t {
+  font-size: 12 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  width: 500 / $count + rem;
+  margin: auto;
+  text-align: left;
+}
+.hdgz_t {
+  font-size: 12 / $count + rem;
+  color: #444b52;
+  letter-spacing: 0;
+  text-align: left;
+  width: 550 / $count + rem;
+  margin: auto;
+  >p:not(:last-child){
+    margin-bottom: 12 / $count + rem;
+  }
+  .r{
+    color: #f00;
+  }
+}
+.ljlq{
+  margin-top: 20/$count + rem;
+  margin-bottom:10/$count + rem;
+  button{
+    display: block;
+    margin: auto;
+    background: url("../../assets/img/everyDayOne/pc/lq_btn.png") no-repeat;
+    background-size:100%;
+    width: 141/$count + rem;
+    height: 40/$count + rem;
+    border: none;
+    background-color: transparent;
+  }
+}

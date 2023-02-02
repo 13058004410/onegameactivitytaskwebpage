@@ -1,0 +1,36 @@
+@import './normaliz.scss';
+@import './screen750.scss';
+html,body{
+    width: 100%;
+    height: 100%;
+    // background: url('../img/logOn/bj.png') no-repeat;
+}
+.fans{
+    @include full_fixed(750);
+    // background: #d9c4b1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .view{
+        flex: 1 1 0;
+        overflow: hidden;
+        position: relative;
+        .scroll{
+            width: 100%;
+            height: 100%;
+            // overflow: hidden;
+            .content{
+                // padding-bottom: 3rem;
+            }
+        }
+    }
+    .img{
+        width: 100%;
+        height: auto;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+}

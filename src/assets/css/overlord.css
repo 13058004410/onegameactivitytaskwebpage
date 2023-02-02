@@ -1,0 +1,582 @@
+html {
+  line-height: 1.4;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei","pingfang SC",helvetica,arial,verdana,tahoma,sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  margin: 0;
+  font-weight: normal;
+}
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+a {
+  background-color: transparent;
+  color: inherit;
+}
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+form {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  outline: none;
+}
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-style: inherit;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+html {
+  font-size: 4.2666666667vw;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 32px;
+  }
+  html body {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opactity 0.5s;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.OverlordMeal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 750px) {
+  .OverlordMeal {
+    width: 375px;
+    left: 50%;
+    margin-left: -187.5px;
+  }
+}
+
+.OverlordMeal .view {
+  flex: 1 1 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.OverlordMeal .view .scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.OverlordMeal .top img {
+  width: 100%;
+  display: block;
+}
+
+.OverlordMeal .Activities {
+  margin-top: -1px;
+  background: url("../img/overlord/bj-2.png") no-repeat center;
+  background-size: 100% 100%;
+  height: 53.34375rem;
+  width: 100%;
+}
+
+.OverlordMeal .Activities .Overlord-content {
+  background: url("../img/overlord/bj-1.png") no-repeat center;
+  background-size: 100% 100%;
+  height: 14.156rem;
+  width: 21.68rem;
+  margin: auto;
+  text-align: center;
+}
+
+.OverlordMeal .Activities .Overlord-content img {
+  width: 11.56rem;
+  margin-top: 1.6rem;
+}
+
+.OverlordMeal .Activities .Overlord-content img + p {
+  border-bottom: 1px dashed green;
+  margin: 5px 20px;
+  padding-bottom: 10px;
+}
+
+.OverlordMeal .Activities .Overlord-content p {
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.OverlordMeal .Activities .Overlord-content p + p {
+  margin: 10px 20px;
+}
+
+.OverlordMeal .Activities h3 {
+  text-align: center;
+}
+
+.OverlordMeal .Activities h3 > img {
+  width: 7.1875rem;
+  padding: 1.125rem 0;
+}
+
+.OverlordMeal .Activities .Battle-team {
+  height: 8.03125rem;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox {
+  background: #fff;
+  width: 90%;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox h3 {
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  color: #a0a0a0;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info {
+  display: flex;
+  width: 100%;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .team {
+  padding-top: 0.78rem;
+  text-align: center;
+  width: 40%;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .team .teamimg {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .team span {
+  padding-top: 0.8rem;
+  padding-bottom: 1rem;
+  display: block;
+  font-size: 0.78rem;
+  color: #444444;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.5rem;
+  width: 20%;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .date span {
+  padding: 4px;
+  font-size: 0.7rem;
+  color: #333333;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .date span:first-child {
+  padding: 4px 6px;
+  position: relative;
+}
+
+.OverlordMeal .Activities .Battle-team .teamBox .info .date span:first-child::after {
+  content: '';
+  height: 3px;
+  width: 100%;
+  background-color: #ff5858;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+}
+
+.OverlordMeal .Activities .Battle-team img {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.OverlordMeal .Activities .button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  height: 3.6875rem;
+  width: 15.65625rem;
+  margin: auto;
+  margin-top: 1.875rem;
+  background: url(../img/overlord/button.png);
+  background-size: 100% 100%;
+  display: block;
+}
+
+.OverlordMeal .Activities .ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.OverlordMeal .Activities .ripple:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, #eee 10%, transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10, 10);
+  opacity: 0;
+  transition: transform .5s,opacity 1s;
+}
+
+.OverlordMeal .Activities .ripple:active:after {
+  transform: scale(0, 0);
+  opacity: .3;
+  transition: 0s;
+}
+
+.OverlordMeal .Activities .reward {
+  height: 18.09375rem;
+  margin-top: 2.1rem;
+}
+
+.OverlordMeal .Activities .reward img {
+  height: 100%;
+}
+
+.OverlordMeal .Activity-Rules {
+  margin-top: -1px;
+  min-height: 42.125rem;
+  background: url("../img/overlord/bj-3.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.OverlordMeal .Activity-Rules .rules {
+  width: 22.5625rem;
+  min-height: 40.25rem;
+  margin: auto;
+  background: url("../img/overlord/bj.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.OverlordMeal .Activity-Rules .rules > div {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.OverlordMeal .Activity-Rules .rules > div img {
+  width: 11.56rem;
+  margin: auto;
+}
+
+.OverlordMeal .Activity-Rules .rules ul {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 0.75rem;
+}
+
+.OverlordMeal .Activity-Rules .rules ul li {
+  margin: 0.7rem;
+  display: flex;
+  padding: 0 0.6rem;
+}
+
+.OverlordMeal .Activity-Rules .rules ul li i {
+  font-style: normal;
+}
+
+.OverlordMeal .Activity-Rules .rules ul li > p i {
+  color: green;
+}
+
+.alertBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+}
+
+.alertBox .alert {
+  position: absolute;
+  height: 16rem;
+  width: 85%;
+  background: url(../img/newUser/alert.png) no-repeat;
+  background-size: 100% 100%;
+  left: 50%;
+  top: 50%;
+  margin: -8rem -40%;
+}
+
+.alertBox .alert h3 {
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.alertBox .alert a {
+  display: block;
+  position: absolute;
+  bottom: 1rem;
+  width: 60%;
+  height: 2.8rem;
+  background: #000;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-align: center;
+  left: 50%;
+  margin-left: -30%;
+  line-height: 2.8rem;
+}

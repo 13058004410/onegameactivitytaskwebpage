@@ -1,0 +1,282 @@
+@import './normaliz.scss';
+@import './screen750.scss';
+html,body{
+    width: 100%;
+    height: 100%;
+    // background: url('../img/logOn/bj.png') no-repeat;
+}
+.OverlordMeal{
+    @include full_fixed(750);
+    // background: #d9c4b1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .view{
+        flex: 1 1 0;
+        overflow: hidden;
+        
+    }
+    .top{  
+        img{
+          width: 100%;
+          display: block;
+        }
+      }
+      .Activities{
+        margin-top: -1px;
+        background: url('../img/overlord/bj-2.png') no-repeat center;
+        background-size: 100% 100%;
+        height: 920/16+rem;
+        width: 100%;
+        .Overlord-content{
+          background: url('../img/overlord/bj-1.png') no-repeat center;
+          background-size: 100% 100%;
+          height: 280/16+rem;
+          width: 21.68rem;
+          margin: auto;
+          // margin-right: 1.1rem;
+          text-align: center;
+          .txt-green {
+            color: green;
+          }
+          img{
+            width: 11.56rem;
+            margin-top: 1.6rem;
+            &+p{
+              border-bottom: 1px dashed green;
+              margin:26/16+rem 20/16+rem;
+              padding-bottom: 10px;
+            }
+          }
+          p{
+            font-size: 0.875rem;
+            text-align: left;
+            &+p{
+              margin:10px 20px;
+            }
+          }
+          .center{
+            text-align: center;
+          }
+        }
+        h3{
+        text-align: center;
+        >img{
+          width: 7.1875rem;
+          padding: 1.125rem 0;
+        }
+      }
+        .Battle-team{
+          height: 8.03125rem;
+          // padding-right: 0.4rem;
+          .teamBox{
+              background:#fff ;
+              width: 90%;
+              border-radius: 1rem;
+              margin: 0 auto;
+              h3{
+                  padding-top:1rem ;
+                  font-size:0.75rem ;
+                  color: #a0a0a0;
+              }
+              .info{
+                  display: flex;
+                //   justify-content:space-around;
+                width: 100%;
+                  .team{
+                      padding-top: 0.78rem;
+                      text-align: center;
+                      width: 40%;
+                     .teamimg{
+                        width: 5rem;
+                        height: 3rem;
+                        border-radius:50%;
+                        // background: #000000;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        img {
+                          object-fit: contain;
+                        }
+                     }
+                     span{
+                         padding-top: 0.8rem;
+                         padding-bottom: 1rem;
+                         display: block;
+                         font-size: 0.78rem;
+                         color: #444444;
+                     }
+                  }
+                  .date{
+                      display:flex ;
+                      flex-direction: column;
+                      align-items: center;
+                      padding-top: 0.5rem;
+                      width: 20%;
+                      span{
+                          padding: 4px ;
+                          font-size:0.7rem;
+                          color: #333333;
+                          &:first-child{
+                            // border-bottom:3px solid #ff5858;
+                            padding: 4px 6px;
+                            position: relative;
+                            &::after{
+                                content: '';
+                                height: 3px;
+                                width: 100%;
+                                background-color:#ff5858;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                border-radius: 20px;
+
+                            }
+                          }
+                      }
+                  }
+              }
+          }
+          img{
+            height: 100%;
+            display: block;
+            // margin: auto;
+            width: 100%;
+          }
+        
+        }
+        .button{
+         margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+          height: 3.6875rem;
+          width: 15.65625rem;
+          margin: auto;
+          margin-top: 1.875rem;
+          background:url(../img/overlord/button.png);
+          background-size:100% 100% ;
+          display: block;
+
+        }
+        .ripple{
+            position: relative; 
+            overflow: hidden;
+        }
+        .ripple:after{
+            content:"";
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events:none ;
+            background-image:radial-gradient(circle,#eee 10%,transparent 10.01%) ;
+            background-repeat:no-repeat ;
+            background-position:50% ;
+            transform:scale(10,10) ;
+            opacity: 0;
+            transition:transform .5s,opacity 1s;
+        }
+        .ripple:active:after{
+            transform:scale(0,0) ;
+            opacity: .3;
+            transition:0s;
+        }
+        .reward{
+          height: 18.09375rem;
+          margin-top: 2.1rem;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      
+        
+      }
+      .Activity-Rules{
+        margin-top: -1px;
+          min-height: 655/16+rem;
+          // width: 22.5625rem;
+          background: url('../img/overlord/bj-3.png') no-repeat center;
+          background-size: 100% 100%;
+          .rules{
+            width: 22.5625rem;
+            min-height: 40.25rem;
+            margin: auto;
+            // margin-left: 0.2rem;
+            background: url('../img/overlord/bj.png')no-repeat center;
+            background-size: 100% 100%;
+            
+            
+            &>div{
+              padding-top: 40/16+rem;
+              text-align: center;
+              img{
+                width: 11.56rem;
+                margin: auto;
+              }
+            }
+            ul{
+              letter-spacing: 2px;
+              line-height: 1.5;
+              font-size: 0.75rem;
+              li{
+              margin: 0.7rem;
+              // display: flex;
+              padding: 0 0.6rem;
+               i{
+                font-style: normal;
+              }
+              .r{
+                color: #f00;
+              }
+              >p{
+                i{
+                  color: green;
+                }
+              }
+            }
+            }
+          }
+        }
+      
+}
+.alertBox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba($color: #000000, $alpha: 0.5);
+    top:0;
+    .alert{
+        position: absolute;
+        height: 16rem;
+        width: 85%;
+        background: url(../img/newUser/alert.png) no-repeat;
+        background-size: 100% 100%;
+        left: 50%;
+        top: 50%;
+        margin: -8rem -40%;
+        h3{
+            font-size: 1rem;
+            color:#000 ;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        a{
+            display: block;
+            position: absolute;
+            bottom: 1rem;
+            width: 60%;
+            height:2.8rem ;
+            background: #000;
+            color: #fff;
+            border-radius: 0.5rem;
+            text-align: center;
+            left: 50%;
+            margin-left: -30%;
+            line-height: 2.8rem;
+        }
+    }
+}

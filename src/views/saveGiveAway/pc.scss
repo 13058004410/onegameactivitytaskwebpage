@@ -1,0 +1,151 @@
+$count: 59.9422423;
+*{
+  box-sizing: border-box;
+}
+.container{
+  background: url("../../assets/img/saveGiveAway/pc/BG.jpg") no-repeat;
+  background-size: cover;
+  padding-top: 415.5/$count+rem;
+  padding-bottom: 50/$count+rem;
+}
+.content_box{
+  background: url("../../assets/img/saveGiveAway/pc/nr_bg.png") no-repeat;
+  background-size: cover;
+  width: 650/$count+rem;
+  height:776.5/$count+rem;
+  margin: auto;
+  padding: 45/$count+rem 50/$count+rem 0 50/$count+rem;
+}
+.hdnr_t{
+  text-align: center;
+  display: block;
+  width: 98/$count+rem;
+  margin: auto;
+}
+.hdnr{
+  font-size: 12/$count+rem;
+  color: #444B52;
+  letter-spacing: 0;
+  line-height: 22/$count+rem;
+  margin-top: 20/$count+rem;
+  >span{
+    color: #EF9538;
+  }
+}
+.money_state{
+  margin-top: 15/$count+rem;
+  text-align:center;
+  font-size: 16/$count+rem;
+  color: #EF9538;
+  letter-spacing: 0;
+  line-height: 27/$count+rem;
+  >div{
+    display: inline-block;
+    position: relative;
+    padding: 0 10/$count+rem;
+    >div{
+      position: absolute;
+      border:2px solid #EF9538;
+      width: 6/$count+rem;
+      height: 6/$count+rem;
+    }
+    >div:nth-child(1){
+      top: 0;
+      left: 0;
+      border-right: none;
+      border-bottom: none;
+    }
+    >div:nth-child(2){
+      top: 0;
+      right: 0;
+      border-left: none;
+      border-bottom: none;
+    }
+    >div:nth-child(3){
+      bottom:0;
+      left: 0;
+      border-top: none;
+      border-right: none;
+    }
+    >div:nth-child(4){
+      right: 0;
+      bottom: 0;
+      border-left: 0;
+      border-top: none;
+    }
+  }
+}
+.money_state.usdt{
+  color: #00C696;
+  >div{
+    >div{
+      border-color: #00C696;
+    }
+  }
+}
+.table{
+  width: 480/$count+rem;
+  line-height: 33.5/$count+rem;
+  font-size: 12/$count+rem;
+  color: #444B52;
+  letter-spacing: 0;
+  text-align: center;
+  margin: auto;
+  margin-top: 20/$count+rem;
+  >div{
+    display:flex;
+    >div{
+      flex:1;
+    }
+  }
+  >div:nth-child(odd){
+    background: #C3D5ED;
+  }
+  >div:nth-child(even){
+    background: #E9F1FA;
+  }
+  >div:last-child{
+    >div{
+      flex:none;
+    }
+    >div:first-child{
+      width: 33.33333%;
+    }
+    >div:not(:first-child){
+      flex: none;
+    }
+  }
+  >div:last-child{
+    >div:first-child{
+      flex:none;
+    }
+    >div:not(:first-child){
+      flex:1;
+    }
+  }
+}
+.receive{
+  width: 107/$count+rem;
+  height: 35/$count+rem;
+  margin:auto;
+  background: url("../../assets/img/saveGiveAway/pc/ljlq_btn.png") no-repeat;
+  background-size: contain;
+  margin-top: 25/$count+rem;
+  margin-bottom: 40/$count+rem;
+}
+.hdgz_content{
+  margin-top: 20/$count+rem;
+  font-size: 12/$count+rem;
+  color: #444B52;
+  letter-spacing: 0;
+  line-height: 22/$count+rem;
+  >p:not(:last-child){
+    margin-bottom: 8/$count+rem;
+  }
+  span{
+    color: #EF9538;
+  }
+  .r{
+    color:#f00;
+  }
+}

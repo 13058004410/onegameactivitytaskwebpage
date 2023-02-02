@@ -1,0 +1,91 @@
+.container {
+  background: url("../../assets/img/everyDayOne/h5/BG.jpg") no-repeat;
+  background-size: 100% 100%;
+  padding-top: 429 /16 + rem;
+  padding-bottom: 40 /16 + rem;
+}
+.mgh20{
+  margin: 0 20/16 + rem;
+}
+.tit_1 {
+  width: 138/16 + rem;
+}
+.tit_2 {
+  width: 160/16 + rem;
+  margin-top: 30/16 + rem;
+}
+.tit_3 {
+  width: 140/16 + rem;
+  margin-top: 30/16 + rem;
+}
+.start_t {
+  font-size: 14/16 + rem;
+  color: #65676d;
+  letter-spacing: 0;
+  margin-top: 15/16 + rem;
+}
+
+.table {
+  margin-top: 15/16 + rem;
+  > div {
+    display: flex;
+    line-height: 40/16 + rem;
+    > div {
+      flex: 1;
+      text-align: center;
+    }
+    > div:nth-child(2) {
+      flex: none;
+      width: 64/16 + rem;
+    }
+    > div:nth-child(4) {
+      flex: none;
+      width: 78/16 + rem;
+    }
+  }
+  .t_h {
+    background: #cfb9a3;
+    border-radius: 0;
+    font-size: 14/16 + rem;
+    color: #ffffff;
+    letter-spacing: 0;
+  }
+  .t_b {
+    background: #f2ece4;
+    border-bottom: 1px solid #e8ddd1;
+    font-size: 14/16 + rem;
+    color: #65676d;
+    letter-spacing: 0;
+  }
+}
+.hdnr_t {
+  font-size: 14/16 + rem;
+  color: #65676d;
+  letter-spacing: 0;
+  margin-top: 15/16 + rem;
+}
+.hdgz_t {
+  font-size: 14/16 + rem;
+  color: #65676d;
+  letter-spacing: 0;
+  margin-top: 15/16 + rem;
+  >p:not(:last-child){
+    margin-bottom: 20/16 + rem;
+  }
+  .r{
+    color: #f00;
+  }
+}
+.ljlq{
+  text-align:center;
+  margin-top: 20/16 + rem;
+  margin-bottom:10/16 + rem;
+  button{
+    background: url("../../assets/img/everyDayOne/h5/lq_btn_h5.png") no-repeat;
+    background-size:100%;
+    width: 141/16 + rem;
+    height: 40/16 + rem;
+    border: none;
+    background-color: transparent;
+  }
+}

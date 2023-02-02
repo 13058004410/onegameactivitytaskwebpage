@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d3e58"],{"5f5f":function(n,p,c){n.exports=c.p+"cdn/C08M/static/img/bg_PC.55b273e5.jpg"}}]);

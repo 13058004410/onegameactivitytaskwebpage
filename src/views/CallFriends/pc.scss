@@ -1,0 +1,157 @@
+$count: 89.9422423;
+.container{
+    .banner_img{
+        width: 100%;
+        position: relative;
+        background: url("../../assets/img/CallFriends/pc/pc_bg.jpg") no-repeat;
+        background-size: 100%;
+        height: 700/$count+rem;
+        .banner_text{
+            padding-top:730/$count+rem;
+            text-align: center;
+            width: 1080/$count+rem;
+            margin: auto;
+            p{
+                font-size: 24/$count+rem;
+                color: #5E607A;
+                &:nth-child(2){
+                    font-size: 36/$count+rem;
+                    color: #55576A;
+                    // margin-top: (15/16) + rem;
+                    font-weight: 600;
+                    margin: 10/$count+rem 0;
+                }
+            }
+            .des{
+                font-size: 20/$count+rem;
+                color: #1d2374;
+            }
+        }
+    }
+    .main{
+        width: 1080/$count+rem;
+        margin: auto;
+        margin-top: 210/$count+rem;
+        .des-img{
+            width: 100%;
+            height: 430/$count+rem;
+        }
+        .rule{
+            font-size: 16/$count+rem;
+            color: #5E607A;
+            text-align: center;
+            line-height: 28/$count+rem;
+            div{
+                i{
+                    color:  #E34F48;
+                    font-style: normal;
+                }
+                span{
+                    color: #5E607A;
+                }
+            }
+        }
+        .btn{
+            width: 220/$count+rem;
+            height: 44/$count+rem;
+            margin: 13/$count+rem auto 32/$count+rem auto;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        .recommend{
+            font-size: 28/$count+rem;
+            color: #55576A;
+            text-align: center;
+            line-height: 28/$count+rem;
+            p{
+                &:nth-child(2){
+                    margin-top:14/$count+rem;
+                    font-size: 18/$count+rem;
+                    color: #E34F48;
+                }
+            }
+        }
+    }
+    .activity_desc{
+        background: #F5F5F5;
+        margin-top:30/$count+rem;
+        .desc_wid{
+            width: 1080/$count+rem;
+            margin: auto;
+            font-size: 18/$count+rem;
+            color: #5E607A;
+            div{
+                font-size: 36/$count+rem;
+                color: #55576A;
+                font-weight: 600;
+                text-align: center;
+                padding: 20/$count+rem 0 26/$count+rem 0;
+            }
+            p{
+                padding-bottom: 20/$count+rem;
+            }
+        }
+    }
+    .model{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        >div{
+            background: #FFFFFF;
+            box-shadow: 0 2/$count+rem 12/$count+rem 0 rgba(0,0,0,0.06);
+            border-radius: 4/$count+rem;
+            width: 360/$count+rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            h3{
+                font-size: 18/$count+rem;
+                color: #303133;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 18/$count+rem;
+                margin-top: 32/$count+rem;
+            }
+            table{
+                margin-top: 18/$count+rem;
+                font-size: 13/$count+rem;
+                color: #909399;
+                letter-spacing: 0;
+                text-align: center;
+                width: 320/$count+rem;
+                text-align: center;
+                thead{
+                    background: #F5F7FA;
+                    line-height: 36/$count+rem;
+                }
+                tbody{
+                    line-height: 36/$count+rem;
+                }
+            }
+            button{
+                background-image: linear-gradient(133deg, #15CA4F 0%, #17D5FF 100%);
+                border-radius: 4/$count+rem;
+                width: 220/$count+rem;
+                height: 40/$count+rem;
+
+                font-size: 14/$count+rem;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 14/$count+rem;
+                border: none;
+                margin-top: 24/$count+rem;
+                margin-bottom: 33/$count+rem;
+            }
+        }
+    }
+}

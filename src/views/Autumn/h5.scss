@@ -1,0 +1,125 @@
+body {
+    font-family: PingFangSC-Semibold;
+}
+table tr th, table tr td {
+    flex: 1;
+    text-align: center;
+    vertical-align: middle;
+    border-color: #000;
+}
+.content {
+    padding-top: (400/16) + rem;
+    background:#FCBB71 url(../../assets/img/Autumn/bannerh5.jpg) no-repeat;
+    background-size: 100%;
+}
+.moonTitle {
+    margin-top: (9/16) + rem;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .leftIcon {
+        width: (70/16) + rem;
+        height: (11/16) + rem;
+        background-image: url(../../assets/img/Autumn/toplh5.png);
+        background-size: 100%;
+    }
+    .centerText {
+        height: (32/16) + rem;
+        font-family: PingFangSC-Semibold;
+        font-size: (19/16) + rem;
+        color: #BA2F1F;
+        letter-spacing: 0;
+        line-height: (32/16) + rem;
+        font-weight: 600;
+        text-align: center;
+        word-break: keep-all;
+    }
+    .rightIcon {
+        width: (69/16) + rem;
+        height: (11/16) + rem;
+        background-image: url(../../assets/img/Autumn/toprh5.png);
+        background-size: 100%;
+    }
+}
+.moonTime {
+    width: (229/16) + rem;
+    font-family: PingFangSC-Semibold;
+    font-size: (13/16) + rem;
+    color: #BA2F1F;
+    letter-spacing: 0;
+    font-weight: 600;
+    margin: 0 auto;
+}
+.active_content {
+    width: (340/16) + rem;
+    margin: 0 auto;
+    .active_title {
+        width: 100%;
+        height: (23/16) + rem;
+        background: #BA2F1F; 
+        margin: (16/16) + rem auto (10/16) + rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .title_left {
+            width: (44/16) + rem;
+            height: (9/16) + rem;
+            background-image: url(../../assets/img/Autumn/bllh5.png);
+            background-size: 100%;
+        }
+        .title_center {
+            margin: 0 (28/16) + rem;
+            font-family: PingFangSC-Semibold;
+            font-size: (13/16) + rem;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            font-weight: 600;
+        }
+        .title_right {
+            width: (44/16) + rem;
+            height: (9/16) + rem;
+            background-image: url(../../assets/img/Autumn/blrh5.png);
+            background-size: 100%;
+        }
+    }
+    .active_word {
+        font-family: PingFangSC-Semibold;
+        font-size: (13/16) + rem;
+        color: #BA2F1F;
+        letter-spacing: 0;
+        line-height: (20/16) + rem;
+        font-weight: 600;
+        margin-bottom: (12/16) + rem;
+        margin-top: (10/16) + rem;
+    }
+    .active_table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: (13/16) + rem;
+        color: #fff;
+        thead {
+            background: #BA2F1F;
+        }
+        tr {
+            display: flex;
+            justify-content: center;
+            th {
+                padding: (6/16) + rem 0; 
+            }
+            td {
+                padding: (10/16) + rem 0;
+                background: #FD7304;
+            }
+        }
+    }
+    
+}
+.active_footer {
+    background: #BA2F1F;
+    padding: (25/16) + rem (13/16) + rem (24/16) + rem (17/16) + rem;
+    font-family: PingFangSC-Regular;
+    font-size: (13/16) + rem;
+    color: #DADADA;
+    line-height: (24/16) + rem;
+    font-weight: 400;
+}
